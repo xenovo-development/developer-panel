@@ -31,7 +31,7 @@
             </div>
             <!-- end card-body -->
         </a>
-    </div> <!-- end col -->
+    </div> <!-- end col --> 
     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
         <a href="{{ route('second', ['apps', 'bluepalmdev']) }}" class="card cta-box overflow-hidden fixed-height-card">
             <div class="card-body d-flex align-items-center justify-content-center">
