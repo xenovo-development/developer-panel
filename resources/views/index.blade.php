@@ -43,7 +43,7 @@
         </a>
     </div> <!-- end col -->
     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-        <a href="{{ url('https://xenovo.com.tr/') }}" class="card cta-box overflow-hidden fixed-height-card">
+        <a href="{{ route('second', ['apps', 'hostinginfodev']) }}" class="card cta-box overflow-hidden fixed-height-card">
             <div class="card-body d-flex align-items-center justify-content-center">
                 <div class="d-flex align-items-center justify-content-center">
                     <img class="ms-3" src="/images/logos/hostingeurope_logo.png" width="200" alt="Hosting Europe Logo">
@@ -53,7 +53,7 @@
         </a>
     </div> <!-- end col -->
     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-        <a href="{{ url('https://xenovo.com.tr/') }}" class="card cta-box overflow-hidden fixed-height-card">
+        <a href="{{ route('second', ['apps', 'hostinggroupdev']) }}" class="card cta-box overflow-hidden fixed-height-card">
             <div class="card-body d-flex align-items-center justify-content-center">
                 <div class="d-flex align-items-center justify-content-center">
                     <img class="ms-3" src="/images/logos/hostingeurope_logo.png" width="200" alt="Hosting Europe Logo">
@@ -63,7 +63,7 @@
         </a>
     </div> <!-- end col -->
     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-        <a href="{{ url('https://xenovo.com.tr/') }}" class="card cta-box overflow-hidden fixed-height-card">
+        <a href="{{ route('second', ['apps', 'frezyahoteldev']) }}" class="card cta-box overflow-hidden fixed-height-card">
             <div class="card-body d-flex align-items-center justify-content-center">
                 <div class="d-flex align-items-center justify-content-center">
                     <img class="ms-3" src="/images/logos/frezya_logo.png" width="200" alt="Frezya Logo">
@@ -73,7 +73,7 @@
         </a>
     </div> <!-- end col -->
     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-        <a href="{{ url('https://xenovo.com.tr/') }}" class="card cta-box overflow-hidden fixed-height-card">
+        <a href="{{ route('second', ['apps', 'frezyakizyurdudev']) }}" class="card cta-box overflow-hidden fixed-height-card">
             <div class="card-body d-flex align-items-center justify-content-center">
                 <div class="d-flex align-items-center justify-content-center">
                     <img class="ms-3" src="/images/logos/frezya_logo.png" width="200" alt="Frezya Logo">
@@ -83,7 +83,7 @@
         </a>
     </div> <!-- end col -->
     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-        <a href="{{ url('https://xenovo.com.tr/') }}" class="card cta-box overflow-hidden fixed-height-card">
+        <a href="{{ route('second', ['apps', 'dynamicworksdev']) }}" class="card cta-box overflow-hidden fixed-height-card">
             <div class="card-body d-flex align-items-center justify-content-center">
                 <div class="d-flex align-items-center justify-content-center">
                     <img class="ms-3" src="/images/logos/dynamicworks_logo.png" width="200" alt="Dynamic Works Logo">
@@ -93,7 +93,7 @@
         </a>
     </div> <!-- end col -->
     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-        <a href="{{ url('https://xenovo.com.tr/') }}" class="card cta-box overflow-hidden fixed-height-card">
+        <a href="{{ route('second', ['apps', 'rainerdev']) }}" class="card cta-box overflow-hidden fixed-height-card">
             <div class="card-body d-flex align-items-center justify-content-center">
                 <div class="d-flex align-items-center justify-content-center">
                     <img class="ms-3" src="/images/logos/rainer_logo.png" width="200" alt="Rainer Logo">
@@ -103,7 +103,7 @@
         </a>
     </div> <!-- end col -->
     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-        <a href="{{ url('https://xenovo.com.tr/') }}" class="card cta-box overflow-hidden fixed-height-card">
+        <a href="{{ route('second', ['apps', 'guest24dev']) }}" class="card cta-box overflow-hidden fixed-height-card">
             <div class="card-body d-flex align-items-center justify-content-center">
                 <div class="d-flex align-items-center justify-content-center">
                     <img class="ms-3" src="/images/logos/g24_logo.png" width="200" alt="G24 Logo">
@@ -113,7 +113,7 @@
         </a>
     </div> <!-- end col -->
     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-        <a href="{{ url('https://xenovo.com.tr/') }}" class="card cta-box overflow-hidden fixed-height-card">
+        <a href="{{ route('second', ['apps', 'reloxxdev']) }}" class="card cta-box overflow-hidden fixed-height-card">
             <div class="card-body d-flex align-items-center justify-content-center">
                 <div class="d-flex align-items-center justify-content-center">
                     <img class="ms-3" src="/images/logos/reloxx_logo.png" width="200" alt="Reloxx Logo">
@@ -123,7 +123,7 @@
         </a>
     </div> <!-- end col -->
     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-        <a href="{{ url('https://xenovo.com.tr/') }}" class="card cta-box overflow-hidden fixed-height-card">
+        <a href="{{ route('second', ['apps', 'motokitchendev']) }}" class="card cta-box overflow-hidden fixed-height-card">
             <div class="card-body d-flex align-items-center justify-content-center">
                 <div class="d-flex align-items-center justify-content-center">
                     <img class="ms-3" src="/images/logos/moto_logo.png" width="200" alt="Moto Logo">
