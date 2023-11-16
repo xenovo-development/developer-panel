@@ -27,7 +27,7 @@
             <div class="col-xl-4 col-lg-5">
                 <div class="card text-center">
                     <div class="card-body">
-                        <img src="/images/users/avatar-1.jpg" class="rounded-circle avatar-lg img-thumbnail" alt="profile-image">
+                        <img src="/images/users/{{Auth()->user()->name}}.png" class="rounded-circle avatar-lg img-thumbnail" alt="profile-image">
 
                         <h4 class="mb-1 mt-2">{{auth()->user()->name}}</h4>
                         <p class="text-muted">{{auth()->user()->role}}</p>
