@@ -94,9 +94,7 @@
                             <!-- end col -->
                         </div>
                         <!-- end row -->
-
                         <h5 class="mt-3">Overview:</h5>
-
                         <p class="text-muted">
                         Xenovo's stylish and user-friendly website is developed using modern web technologies such as Vue.js and Nuxt.js. Vue.js is a powerful JavaScript framework, ideal for creating an excellent user interface. Additionally, the SSR (Server-Side Rendering) feature offered by Nuxt.js ensures fast page loads and optimized SEO performance, maximizing the overall user experience.
                        </p>
