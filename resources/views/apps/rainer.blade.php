@@ -1,4 +1,4 @@
-@extends('layouts.vertical', ['page_title' => 'File Manager', 'mode' => $mode ?? '', 'demo' => $demo ?? ''])
+@extends('layouts.vertical', ['page_title' => 'Rainer', 'mode' => $mode ?? '', 'demo' => $demo ?? ''])
 
 @section('content')
    <!-- Start Content-->

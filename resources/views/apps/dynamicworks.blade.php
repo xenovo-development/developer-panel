@@ -1,4 +1,4 @@
-@extends('layouts.vertical', ['page_title' => 'Kanban Board', 'mode' => $mode ?? '', 'demo' => $demo ?? ''])
+@extends('layouts.vertical', ['page_title' => 'Dynamic Works', 'mode' => $mode ?? '', 'demo' => $demo ?? ''])
 
 @section('content')
     <!-- Start Content-->

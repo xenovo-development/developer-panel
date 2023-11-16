@@ -1,4 +1,4 @@
-@extends('layouts.vertical', ['page_title' => 'Chat', 'mode' => $mode ?? '', 'demo' => $demo ?? ''])
+@extends('layouts.vertical', ['page_title' => 'Chat', 'Moto Kitchen' => $mode ?? '', 'demo' => $demo ?? ''])
 
 @section('css')
 @endsection
