@@ -29,20 +29,18 @@
                     <div class="card-body">
                         <img src="/images/users/avatar-1.jpg" class="rounded-circle avatar-lg img-thumbnail" alt="profile-image">
 
-                        <h4 class="mb-1 mt-2">Damla Hocaoğlu</h4>
-                        <p class="text-muted">Frontend Developer</p>
+                        <h4 class="mb-1 mt-2">{{auth()->user()->name}}</h4>
+                        <p class="text-muted">{{auth()->user()->role}}</p>
 
                         <div class="text-start mt-3">
                             <h4 class="fs-13 text-uppercase mb-2">Contact</h4>
-                            <p class="text-muted mb-2"><strong>Username :</strong> <span class="ms-2 ">em1.14</span></p>
-                            <p class="text-muted mb-2"><strong>Odsol Email :</strong> <span class="ms-2 ">em1.14@odsol-mail.com</span></p>
-                            <p class="text-muted mb-2"><strong>Xenovo Email :</strong> <span class="ms-2 ">damlahocaoglu@xenovo.net</span></p>
-                            <p class="text-muted mb-1"><strong>Mobile :</strong><span class="ms-2">0546 262 40 19</span></p>
+                            <p class="text-muted mb-2"><strong>Username :</strong> <span class="ms-2 ">{{auth()->user()->name}}</span></p>
+                            <p class="text-muted mb-2"><strong>Email :</strong> <span class="ms-2 ">{{auth()->user()->email}}</span></p>
                         </div>
                     </div> <!-- end card-body -->
                 </div> <!-- end card -->
 
-               
+
 
             </div> <!-- end col-->
 
@@ -80,7 +78,7 @@
                     </div> <!-- end card-body -->
                 </div> <!-- end card -->
             </div> <!-- end col -->
-          
+
         </div>
         <!-- end row-->
 

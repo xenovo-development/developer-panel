@@ -42,7 +42,7 @@
         </div>
 
         <ul class="topbar-menu d-flex align-items-center gap-3">
-           
+
             <li class="d-none d-sm-inline-block">
                 <div class="nav-link" id="light-dark-mode" data-bs-toggle="tooltip" data-bs-placement="left" title="Theme Mode">
                     <i class="ri-moon-line fs-22"></i>
@@ -60,10 +60,9 @@
                     </span>
                     <span class="d-lg-flex flex-column gap-1 d-none">
                         <h5 class="my-0">
-                            Damla
-                            <!-- {{ auth()->user()->name }} -->
+                            {{ auth()->user()->name }}
                         </h5>
-                        <h6 class="my-0 fw-normal">Frontend Developer</h6>
+                        <h6 class="my-0 fw-normal">{{auth()->user()->role}}</h6>
                     </span>
                 </a>
                 <div class="dropdown-menu dropdown-menu-end dropdown-menu-animated profile-dropdown">
