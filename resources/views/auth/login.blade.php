@@ -8,8 +8,8 @@
 </head>
 
 <body class="authentication-bg position-relative">
-    <div class="position-absolute start-0 end-0 start-0 bottom-0 w-100 h-100">
-        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 1920 1028">
+    <div class="position-absolute start-0 end-0 start-0 bottom-0 w-100 h-100 bg-dark">
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 1920 1028">
             <g mask="url(&quot;#SvgjsMask1166&quot;)" fill="none">
                 <use xlink:href="#SvgjsSymbol1173" x="0" y="0"></use>
                 <use xlink:href="#SvgjsSymbol1173" x="0" y="720"></use>
@@ -173,7 +173,7 @@
                 <use xlink:href="#SvgjsPath1168" x="690" y="630" stroke="rgba(var(--ct-primary-rgb), 0.20)"></use>
                 <use xlink:href="#SvgjsPath1171" x="690" y="690" stroke="rgba(var(--ct-primary-rgb), 0.20)"></use>
             </symbol>
-        </svg>
+        </svg> -->
     </div>
     <div class="account-pages pt-2 pt-sm-5 pb-4 pb-sm-5 position-relative">
         <div class="container">
@@ -182,9 +182,9 @@
                     <div class="card">
 
                         <!-- Logo -->
-                        <div class="card-header py-4 text-center bg-primary">
+                        <div class="card-header py-4 text-center bg-light">
                             <a href="{{ route('any', 'index') }}ml">
-                                <span><img src="/images/logos/xenovo_logo.png" alt="xenovo logo" height="22"></span>
+                                <span><img src="/images/logos/xenovo_logo.png" alt="xenovo logo" height="40"></span>
                             </a>
                         </div>
 
@@ -210,7 +210,7 @@
                                 </div>
 
                                 <div class="mb-3">
-                                    <a href="{{ route('second', ['auth', 'recoverpw']) }}" class="text-muted float-end fs-12">Forgot your password?</a>
+                                    <!-- <a href="{{ route('second', ['auth', 'recoverpw']) }}" class="text-muted float-end fs-12">Forgot your password?</a> -->
                                     <label for="password" class="form-label">Password</label>
                                     <div class="input-group input-group-merge">
                                         <input type="password" id="password" class="form-control" placeholder="Enter your password" value="password" name="password">
@@ -220,15 +220,15 @@
                                     </div>
                                 </div>
 
-                                <div class="mb-3 mb-3">
+                                <!-- <div class="mb-3 mb-3">
                                     <div class="form-check">
                                         <input type="checkbox" class="form-check-input" id="checkbox-signin" checked>
                                         <label class="form-check-label" for="checkbox-signin">Remember me</label>
                                     </div>
-                                </div>
+                                </div> -->
 
                                 <div class="mb-3 mb-0 text-center">
-                                    <button class="btn btn-primary" type="submit"> Log In </button>
+                                    <button class="btn btn-dark" type="submit"> Log In </button>
                                 </div>
 
                             </form>
@@ -236,11 +236,11 @@
                     </div>
                     <!-- end card -->
 
-                    <div class="row mt-3">
+                    <!-- <div class="row mt-3">
                         <div class="col-12 text-center">
                             <p class="text-muted bg-body">Don't have an account? <a href="{{ route('second', ['auth', 'register']) }}" class="text-muted ms-1 link-offset-3 text-decoration-underline"><b>Sign Up</b></a></p>
-                        </div> <!-- end col -->
-                    </div>
+                        </div> 
+                    </div> -->
                     <!-- end row -->
 
                 </div> <!-- end col -->
@@ -252,7 +252,7 @@
     <!-- end page -->
 
     <footer class="footer footer-alt fw-medium">
-        <span class="bg-body">
+        <span class="bg-dark">
             <script>
                 document.write(new Date().getFullYear())
             </script> © Xenovo - Developer Panel
