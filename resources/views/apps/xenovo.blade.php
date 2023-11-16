@@ -226,7 +226,7 @@
                                     </div>
                                     <div class="col-auto">
                                         <!-- Button -->
-                                        <a href="javascript:void(0);" class="btn btn-link fs-16 text-muted">
+                                        <a href="{{env('APP_URL')}}/images/logos/xenovo_logo.png" class="btn btn-link fs-16 text-muted" download="xenovo_logo">
                                             <i class="ri-download-line"></i>
                                         </a>
                                     </div>
@@ -249,7 +249,7 @@
                                     </div>
                                     <div class="col-auto">
                                         <!-- Button -->
-                                        <a href="javascript:void(0);" class="btn btn-link fs-16 text-muted">
+                                        <a href="{{env('APP_URL')}}/images/favicon.ico" class="btn btn-link fs-16 text-muted" download="favicon">
                                             <i class="ri-download-line"></i>
                                         </a>
                                     </div>
@@ -261,23 +261,23 @@
                                 <div class="row align-items-center">
                                     <div class="col-auto">
                                         <div class="avatar-sm">
-                                            <span class="avatar-title bg-secondary rounded">
-                                                ZIP
+                                            <span class="avatar-title bg-primary-subtle rounded">
+                                               <i class="ri-github-fill" style="font-size: 22px"></i>
                                             </span>
                                         </div>
                                     </div>
                                     <div class="col ps-0">
-                                        <a href="javascript:void(0);" class="text-muted fw-bold">Code</a>
+                                        <a href="https://github.com/xenovo-development/developer-panel" class="text-muted fw-bold">Code</a>
                                     </div>
                                     <div class="col-auto">
                                         <!-- Button -->
-                                        <a href="javascript:void(0);" class="btn btn-link fs-16 text-muted">
-                                            <i class="ri-download-line"></i>
+                                        <a href="https://github.com/xenovo-development/developer-panel" class="btn btn-link fs-16 text-muted">
+                                            <i class="ri-link"></i>
                                         </a>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div>    
                     </div>
                 </div>
                 <div class="card-body card cta-box text-bg-info">

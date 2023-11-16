@@ -425,5 +425,18 @@ $(document).ready(() => {
 
         init();
 
+        $(document).ready(function() {
+            $('#success-alert-modal').modal('show');
+        });
+        $(document).ready(function() {
+            $('#info-alert-modal').modal('show');
+        });
+        $(document).ready(function() {
+            $('#danger-alert-modal').modal('show');
+        });
+        $(document).ready(function() {
+            $('#warning-alert-modal').modal('show');
+        });
+
     })(jQuery)
 })

@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\Auth\UpdateUserController;
+use App\Http\Controllers\DownloadController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RoutingController;
 
@@ -31,4 +33,7 @@ Route::group(['prefix' => '/', 'middleware'=>'auth'], function () {
     Route::get('{first}/{second}/{third}', [RoutingController::class, 'thirdLevel'])->name('third');
     Route::get('{first}/{second}', [RoutingController::class, 'secondLevel'])->name('second');
     Route::get('{any}', [RoutingController::class, 'root'])->name('any');
+
+    Route::post('update-user',[UpdateUserController::class,'store']);
+    Route::get('/download/{filename}',[DownloadController::class,'index']);
 });

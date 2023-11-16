@@ -48,25 +48,39 @@
                 <div class="card">
                     <div class="card-body">
                         <h4 class="header-title mb-2">Update Profile</h4>
-                        <p class="text-muted fs-14 mb-4">You can update your e-mail address or password from the form below.</p>
+                        <p class="text-muted fs-14 mb-4">You can update your account credentials from the form below.</p>
 
-                        <form class="form-horizontal">
+                        <form class="form-horizontal" method="POST" action="/update-user">
+                             @csrf
+                            @if (sizeof($errors) > 0)
+                                <ul>
+                                    @foreach ($errors->all() as $error)
+                                        <li class="text-danger">{{ $error }}</li>
+                                    @endforeach
+                                </ul>
+                            @endif
                             <div class="row mb-3">
                                 <label for="inputEmail3" class="col-3 col-form-label">Email</label>
                                 <div class="col-9">
-                                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email" name="email" readonly="readonly" value="{{Auth()->user()->email}}">
                                 </div>
                             </div>
                             <div class="row mb-3">
                                 <label for="inputPassword3" class="col-3 col-form-label">Password</label>
                                 <div class="col-9">
-                                    <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                                    <input type="password" class="form-control" id="inputPassword3" placeholder="Password" name="old_password" autocomplete="off">
                                 </div>
                             </div>
                             <div class="row mb-3">
-                                <label for="inputPassword5" class="col-3 col-form-label">Re Password</label>
+                                <label for="inputPassword3" class="col-3 col-form-label">New Password</label>
                                 <div class="col-9">
-                                    <input type="password" class="form-control" id="inputPassword5" placeholder="Retype Password">
+                                    <input type="password" class="form-control" id="inputPassword3" placeholder="New Password" name="password">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="inputPassword5" class="col-3 col-form-label">Re New Password</label>
+                                <div class="col-9">
+                                    <input type="password" class="form-control" id="inputPassword5" placeholder="Retype New Password" name="password_confirmation">
                                 </div>
                             </div>
                             <div class="justify-content-end row mb-3">
