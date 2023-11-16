@@ -277,7 +277,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>    
+                        </div>
                     </div>
                 </div>
                 <div class="card-body card cta-box text-bg-info">
@@ -292,7 +292,6 @@
                 </div>
             </div>
         </div> <!-- end row -->
-
     </div> <!-- container -->
 @endsection
 

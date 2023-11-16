@@ -85,7 +85,7 @@
                     <p class="text-muted">
                     This website, utilized by Hosting Europe, is constructed with WordPress, a robust and flexible content management system. This choice provides developers with ease of use, extensive plugin support, and scalability advantages.
                     </p>
-                    
+
                     <h5 class="mb-3 d-inline-block">Live Link:</h5>
                     <a href="http://info.hostingeurope.group/" target="_blank" class="text-muted d-inline-block">
                     info.hostingeurope.group
@@ -267,7 +267,6 @@
             </div>
         </div>
     </div> <!-- end row -->
-
 </div> <!-- container -->
 @endsection
 

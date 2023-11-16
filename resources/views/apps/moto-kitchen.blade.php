@@ -253,6 +253,5 @@
             </div>
             </div>
         </div> <!-- end row -->
-
     </div> <!-- container -->
 @endsection

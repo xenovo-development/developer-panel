@@ -58,7 +58,7 @@
                         <a href="https://dynamicworks.group/" target="_blank" class="text-muted d-inline-block">
                         dynamicworks.group
                         </a>
-                        <!-- İframe ekleyelim -->                      
+                        <!-- İframe ekleyelim -->
                         <!-- end row -->
                     </div>
                     <!-- end card-body-->
@@ -68,7 +68,6 @@
             </div>
             <!-- end col-12 -->
         </div> <!-- end row -->
-
     </div> <!-- container -->
 @endsection
 <script>

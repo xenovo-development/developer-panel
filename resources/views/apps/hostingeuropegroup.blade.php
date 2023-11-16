@@ -85,7 +85,7 @@
                 <p class="text-muted">
                 This special site is a WordPress page that exclusively provides redirects to the Hosting Europe Info website and dashboard, consisting of only a single page. Designed to seamlessly achieve two crucial objectives, this page offers a perfect blend of minimalism and user-friendliness.
                 </p>
-                
+
                 <h5 class="mb-3 d-inline-block">Live Link:</h5>
                 <a href="https://hostingeurope.group/" target="_blank" class="text-muted d-inline-block">
                 hostingeurope.group
@@ -267,7 +267,6 @@
             </div>
     </div>
 </div> <!-- end row -->
-
 </div> <!-- container -->
 @endsection
 
