@@ -205,7 +205,7 @@
                                     </div>
                                     <div class="col-auto">
                                         <!-- Button -->
-                                        <a href="javascript:void(0);" class="btn btn-link fs-16 text-muted">
+                                        <a href="{{env('APP_URL')}}/images/logos/g24_logo.png" class="btn btn-link fs-16 text-muted" download="g24_logo">
                                             <i class="ri-download-line"></i>
                                         </a>
                                     </div>
@@ -228,7 +228,7 @@
                                     </div>
                                     <div class="col-auto">
                                         <!-- Button -->
-                                        <a href="javascript:void(0);" class="btn btn-link fs-16 text-muted">
+                                        <a href="{{env('APP_URL')}}/images/logos/favicon-g24.png" class="btn btn-link fs-16 text-muted" download="favicon-g24">
                                             <i class="ri-download-line"></i>
                                         </a>
                                     </div>
@@ -279,7 +279,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
                 <div class="card-body card cta-box text-bg-info">

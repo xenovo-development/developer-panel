@@ -79,7 +79,7 @@
                         <h5 class="mt-3">Overview:</h5>
 
                         <p class="text-muted">
-                            This website, utilized by Dynamic Works, is constructed with WordPress, a robust and flexible content management system. This choice provides developers with ease of use, extensive plugin support, and scalability advantages.                        
+                            This website, utilized by Dynamic Works, is constructed with WordPress, a robust and flexible content management system. This choice provides developers with ease of use, extensive plugin support, and scalability advantages.
                         </p>
                         <h5 class="mb-3 d-inline-block">Live Link:</h5>
                         <a href="https://dynamicworks.group/" target="_blank" class="text-muted d-inline-block">
@@ -192,11 +192,11 @@
                                         </div>
                                     </div>
                                     <div class="col ps-0">
-                                        <a href="javascript:void(0);" class="text-muted fw-bold">Logo</a>
+                                       <a href="javascript:void(0);" class="text-muted fw-bold">Logo</a>
                                     </div>
                                     <div class="col-auto">
                                         <!-- Button -->
-                                        <a href="javascript:void(0);" class="btn btn-link fs-16 text-muted">
+                                        <a href="{{env('APP_URL')}}/images/logos/dynamicworks_logo.png" class="btn btn-link fs-16 text-muted" download="dynamicworks_logo">
                                             <i class="ri-download-line"></i>
                                         </a>
                                     </div>
@@ -219,7 +219,7 @@
                                     </div>
                                     <div class="col-auto">
                                         <!-- Button -->
-                                        <a href="javascript:void(0);" class="btn btn-link fs-16 text-muted">
+                                        <a href="{{env('APP_URL')}}/images/logos/favicon-dw.png" class="btn btn-link fs-16 text-muted" download="favicon-dw">
                                             <i class="ri-download-line"></i>
                                         </a>
                                     </div>
@@ -270,7 +270,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
                 <div class="card-body card cta-box text-bg-info">
