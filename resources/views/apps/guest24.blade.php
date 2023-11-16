@@ -201,11 +201,11 @@
                                         </div>
                                     </div>
                                     <div class="col ps-0">
-                                        <a href="{{env('APP_URL')}}/images/logos/g24_logo.png" class="btn btn-link fs-16 text-muted" download="g24_logo">
+                                        <a class="text-muted fw-bold">Logo</a>
                                     </div>
                                     <div class="col-auto">
                                         <!-- Button -->
-                                        <a href="javascript:void(0);" class="btn btn-link fs-16 text-muted">
+                                        <a href="{{env('APP_URL')}}/images/logos/g24_logo.png" class="btn btn-link fs-16 text-muted" download="xenovo_logo">
                                             <i class="ri-download-line"></i>
                                         </a>
                                     </div>
@@ -240,8 +240,8 @@
                                 <div class="row align-items-center">
                                     <div class="col-auto">
                                         <div class="avatar-sm">
-                                            <span class="avatar-title bg-secondary rounded">
-                                                ZIP
+                                            <span class="avatar-title bg-primary-subtle rounded">
+                                               <i class="ri-github-fill" style="font-size: 22px; color:#010409"></i>
                                             </span>
                                         </div>
                                     </div>
