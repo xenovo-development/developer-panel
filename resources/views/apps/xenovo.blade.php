@@ -41,10 +41,10 @@
                                 <div class="col-lg-6">
                                 <div class="mt-lg-0 mt-3">
                                     <div class="avatar-group">
-                                        <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip" data-bs-placement="top" title="Damla">
+                                        <a href="javascript: void(0);" class="avatar-group-item bg-light border" data-bs-toggle="tooltip" data-bs-placement="top" title="Damla">
                                             <img src="/images/users/damla.png" alt="" class="rounded-circle avatar-sm">
                                         </a>
-                                        <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip" data-bs-placement="top" title="Emin">
+                                        <a href="javascript: void(0);" class="avatar-group-item bg-light border" data-bs-toggle="tooltip" data-bs-placement="top" title="Emin">
                                             <img src="/images/users/emin.png" alt="" class="rounded-circle avatar-sm">
                                         </a>
                                     </div>
@@ -277,30 +277,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="card mb-1 shadow-none border">
-                            <div class="p-2">
-                                <div class="row align-items-center">
-                                    <div class="col-auto">
-                                        <div class="avatar-sm">
-                                            <span class="avatar-title bg-primary-subtle text-primary rounded">
-                                                 <i class="ri-palette-line fs-22 text-info me-1"></i>
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <div class="col ps-0">
-                                        <a href="javascript:void(0);" class="text-muted fw-bold">All Color</a>
-                                    </div>
-                                    <div class="col-auto">
-                                        <!-- Button -->
-                                        <a href="javascript:void(0);" class="btn btn-link fs-16 text-muted">
-                                            <i class="ri-download-line"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
+                        </div>    
                     </div>
                 </div>
                 <div class="card-body card cta-box text-bg-info">

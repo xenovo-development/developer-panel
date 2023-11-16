@@ -39,10 +39,10 @@
                                 <p class="mt-2 mb-1 text-muted">Assigned To</p>
                                 <div class="mt-lg-0 mt-3">
                                     <div class="avatar-group">
-                                        <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip" data-bs-placement="top" title="Damla">
+                                        <a href="javascript: void(0);" class="avatar-group-item bg-light border" data-bs-toggle="tooltip" data-bs-placement="top" title="Damla">
                                             <img src="/images/users/damla.png" alt="" class="rounded-circle avatar-sm">
                                         </a>
-                                        <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip" data-bs-placement="top" title="Emin">
+                                        <a href="javascript: void(0);" class="avatar-group-item bg-light border" data-bs-toggle="tooltip" data-bs-placement="top" title="Emin">
                                             <img src="/images/users/emin.png" alt="" class="rounded-circle avatar-sm">
                                         </a>
                                     </div>
@@ -208,7 +208,7 @@
                                     </div>
                                     <div class="col-auto">
                                         <!-- Button -->
-                                        <a href="{{env('APP_URL')}}/images/logos/bluepalm_logo.png" class="btn btn-link fs-16 text-muted" download="bluepalm_logo">
+                                        <a href="javascript:void(0);" class="btn btn-link fs-16 text-muted">
                                             <i class="ri-download-line"></i>
                                         </a>
                                     </div>
@@ -231,36 +231,35 @@
                                     </div>
                                     <div class="col-auto">
                                         <!-- Button -->
-                                        <a href="{{env('APP_URL')}}/images/logos/favicon-bp.png" class="btn btn-link fs-16 text-muted" download="favicon">
+                                        <a href="javascript:void(0);" class="btn btn-link fs-16 text-muted">
                                             <i class="ri-download-line"></i>
                                         </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-{{--                        <div class="card mb-0 shadow-none border">--}}
-{{--                            <div class="p-2">--}}
-{{--                                <div class="row align-items-center">--}}
-{{--                                    <div class="col-auto">--}}
-{{--                                        <div class="avatar-sm">--}}
-{{--                                            <span class="avatar-title bg-secondary rounded">--}}
-{{--                                                ZIP--}}
-{{--                                            </span>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                    <div class="col ps-0">--}}
-{{--                                        <a href="javascript:void(0);" class="text-muted fw-bold">Code</a>--}}
-{{--                                    </div>--}}
-{{--                                    <div class="col-auto">--}}
-{{--                                        <!-- Button -->--}}
-{{--                                        <a href="javascript:void(0);" class="btn btn-link fs-16 text-muted">--}}
-{{--                                            <i class="ri-download-line"></i>--}}
-{{--                                        </a>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-
+                        <div class="card mb-0 shadow-none border">
+                            <div class="p-2">
+                                <div class="row align-items-center">
+                                    <div class="col-auto">
+                                        <div class="avatar-sm">
+                                            <span class="avatar-title bg-secondary rounded">
+                                                ZIP
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col ps-0">
+                                        <a href="javascript:void(0);" class="text-muted fw-bold">Code</a>
+                                    </div>
+                                    <div class="col-auto">
+                                        <!-- Button -->
+                                        <a href="javascript:void(0);" class="btn btn-link fs-16 text-muted">
+                                            <i class="ri-download-line"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="card-body card cta-box text-bg-info">
