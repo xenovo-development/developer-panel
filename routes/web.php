@@ -35,5 +35,4 @@ Route::group(['prefix' => '/', 'middleware'=>'auth'], function () {
     Route::get('{any}', [RoutingController::class, 'root'])->name('any');
 
     Route::post('update-user',[UpdateUserController::class,'store']);
-    Route::get('/download/{filename}',[DownloadController::class,'index']);
 });
