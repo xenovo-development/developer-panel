@@ -201,7 +201,7 @@
                             </div>
                             <div class="col-auto">
                                 <!-- Button -->
-                                <a href="javascript:void(0);" class="btn btn-link fs-16 text-muted">
+                                <a href="{{env('APP_URL')}}/images/logos/hostingeurope_logo.png" class="btn btn-link fs-16 text-muted" download="hostingeurope_logo">
                                     <i class="ri-download-line"></i>
                                 </a>
                             </div>
@@ -224,7 +224,7 @@
                             </div>
                             <div class="col-auto">
                                 <!-- Button -->
-                                <a href="javascript:void(0);" class="btn btn-link fs-16 text-muted">
+                                <a href="{{env('APP_URL')}}/images/logos/favicon-he.png" class="btn btn-link fs-16 text-muted" download="favicon">
                                     <i class="ri-download-line"></i>
                                 </a>
                             </div>
