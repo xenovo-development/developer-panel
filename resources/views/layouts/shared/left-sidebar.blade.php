@@ -130,7 +130,7 @@
             <li class="side-nav-item">
                 <a href="{{ route('second', ['pages', 'profile']) }}" class="side-nav-link">
                 <i class="ri-account-circle-line"></i>
-                <span> My Acconut </span>
+                <span> My Account </span>
                 </a>
             </li>
             <li class="side-nav-item">

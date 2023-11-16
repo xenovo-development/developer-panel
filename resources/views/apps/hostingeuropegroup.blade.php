@@ -279,17 +279,16 @@
                 
             </div>
         </div>
-        <div class="card-body card cta-box text-bg-info">
-            <div class="text-center">
-                <h3 class="m-0 fw-normal cta-box-title">Go to <b>Hosting Europe Group's</b> Developer Mode.</h3>
-
-                <img class="my-3" src="/images/svg/startman.svg" width="138" alt="Generic placeholder image">
-
-                <br />
-
-                <a href="javascript:void(0);" class="btn btn-sm btn-light rounded-pill">Developer Panel<i class="ri-arrow-right-line"></i></a>
+            <div class="card-body card cta-box text-bg-info">
+                <div class="text-center">
+                    <h3 class="m-0 fw-normal cta-box-title">Go to <b>Hosting Europe Group's</b> Developer Website.</h3>
+                    <img class="my-3" src="/images/svg/startman.svg" width="138" alt="Generic placeholder image">
+                    <br />
+                    <a href="{{ route('second', ['apps', 'hostinggroupdev']) }}" class="btn btn-sm btn-light rounded-pill">
+                        <i class="ri-arrow-right-line"></i> Developer Website
+                    </a>
+                </div>
             </div>
-        </div>
     </div>
 </div> <!-- end row -->
 

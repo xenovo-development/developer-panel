@@ -279,13 +279,12 @@
                 </div>
                 <div class="card-body card cta-box text-bg-info">
                     <div class="text-center">
-                        <h3 class="m-0 fw-normal cta-box-title">Go to <b>Frezya Kız Yurdu's</b> Developer Mode.</h3>
-
+                        <h3 class="m-0 fw-normal cta-box-title">Go to <b>Frezya Kız Yurdu's</b> Developer Website.</h3>
                         <img class="my-3" src="/images/svg/startman.svg" width="138" alt="Generic placeholder image">
-
                         <br />
-
-                        <a href="javascript:void(0);" class="btn btn-sm btn-light rounded-pill">Developer Panel<i class="ri-arrow-right-line"></i></a>
+                        <a href="{{ route('second', ['apps', 'frezyakizyurdudev']) }}" class="btn btn-sm btn-light rounded-pill">
+                            <i class="ri-arrow-right-line"></i> Developer Website
+                        </a>
                     </div>
                 </div>
             </div>
