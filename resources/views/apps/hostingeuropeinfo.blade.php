@@ -156,105 +156,105 @@
         </div>
         <!-- end col-12 -->
         <div class="col-xl-4 col-lg-5">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title fs-16 mb-3">Attachments</h5>
-                    <!-- Preview -->
-                    <div class="dropzone-previews mt-3" id="file-previews"></div>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title fs-16 mb-3">Attachments</h5>
+                <!-- Preview -->
+                <div class="dropzone-previews mt-3" id="file-previews"></div>
 
-                    <!-- file preview template -->
-                    <div class="card mb-1 shadow-none border">
+                <!-- file preview template -->
+                <div class="d-none" id="uploadPreviewTemplate">
+                    <div class="card mb-1 mb-0 shadow-none border">
                         <div class="p-2">
                             <div class="row align-items-center">
                                 <div class="col-auto">
-                                    <div class="avatar-sm">
-                                        <span class="avatar-title bg-primary-subtle text-primary rounded">
-                                            <img src="/images/logos/hostingeurope_logo.png" alt="logo" width="40">
-                                        </span>
-                                    </div>
+                                    <img data-dz-thumbnail src="#" class="avatar-sm rounded bg-light" alt="" />
                                 </div>
                                 <div class="col ps-0">
-                                    <a href="javascript:void(0);" class="text-muted fw-bold">Logo</a>
+                                    <a href="javascript:void(0);" class="text-muted fw-bold" data-dz-name></a>
+                                    <p class="mb-0" data-dz-size></p>
                                 </div>
                                 <div class="col-auto">
                                     <!-- Button -->
-                                    <a href="{{env('APP_URL')}}/images/logos/hostingeurope_logo.png" class="btn btn-link fs-16 text-muted" download="hostingeurope_logo">
-                                        <i class="ri-download-line"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card mb-1 shadow-none border">
-                        <div class="p-2">
-                            <div class="row align-items-center">
-                                <div class="col-auto">
-                                    <div class="avatar-sm">
-                                        <span class="avatar-title bg-primary-subtle text-primary rounded">
-                                            <img src="/images/logos/favicon-he.png" alt="logo" width="25">
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="col ps-0">
-                                    <a href="javascript:void(0);" class="text-muted fw-bold">Favicon</a>
-                                </div>
-                                <div class="col-auto">
-                                    <!-- Button -->
-                                    <a href="{{env('APP_URL')}}/images/logos/favicon-he.png" class="btn btn-link fs-16 text-muted" download="favicon">
-                                        <i class="ri-download-line"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card mb-1 shadow-none border">
-                        <div class="p-2">
-                            <div class="row align-items-center">
-                                <div class="col-auto">
-                                    <div class="avatar-sm">
-                                        <span class="avatar-title bg-primary-subtle text-primary rounded">
-                                            <img src="/images/logos/favicon-he.png" alt="logo" width="25">
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="col ps-0">
-                                    <a href="javascript:void(0);" class="text-muted fw-bold">Favicon</a>
-                                </div>
-                                <div class="col-auto">
-                                    <!-- Button -->
-                                    <a href="javascript:void(0);" class="btn btn-link fs-16 text-muted">
-                                        <i class="ri-download-line"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-0 shadow-none border">
-                        <div class="p-2">
-                            <div class="row align-items-center">
-                                <div class="col-auto">
-                                    <div class="avatar-sm">
-                                        <span class="avatar-title bg-secondary rounded">
-                                            ZIP
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="col ps-0">
-                                    <a href="javascript:void(0);" class="text-muted fw-bold">Code</a>
-                                </div>
-                                <div class="col-auto">
-                                    <!-- Button -->
-                                    <a href="javascript:void(0);" class="btn btn-link fs-16 text-muted">
-                                        <i class="ri-download-line"></i>
+                                    <a href="" class="btn btn-link btn-lg text-muted" data-dz-remove>
+                                        <i class="ri-close-line"></i>
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!-- end file preview template -->
+
+                <div class="card mb-1 shadow-none border">
+                    <div class="p-2">
+                        <div class="row align-items-center">
+                            <div class="col-auto">
+                                <div class="avatar-sm">
+                                    <span class="avatar-title bg-primary-subtle text-primary rounded">
+                                        <img src="/images/logos/hostingeurope_logo.png" alt="logo" width="40">
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col ps-0">
+                                <a class="text-muted fw-bold">Logo</a>
+                            </div>
+                            <div class="col-auto">
+                                <!-- Button -->
+                                <a href="{{env('APP_URL')}}/images/logos/hostingeurope_logo.png" class="btn btn-link fs-16 text-muted" download="hostingeurope_logo">
+                                    <i class="ri-download-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-1 shadow-none border">
+                    <div class="p-2">
+                        <div class="row align-items-center">
+                            <div class="col-auto">
+                                <div class="avatar-sm">
+                                    <span class="avatar-title bg-primary-subtle text-primary rounded">
+                                        <img src="/images/logos/favicon-he.png" alt="logo" width="25">
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col ps-0">
+                                <a class="text-muted fw-bold">Favicon</a>
+                            </div>
+                            <div class="col-auto">
+                                <!-- Button -->
+                                <a href="{{env('APP_URL')}}/images/logos/favicon-he.png" class="btn btn-link fs-16 text-muted" download="favicon">
+                                    <i class="ri-download-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-0 shadow-none border">
+                    <div class="p-2">
+                        <div class="row align-items-center">
+                            <div class="col-auto">
+                                <div class="avatar-sm">
+                                    <span class="avatar-title bg-primary-subtle rounded">
+                                        <i class="ri-github-fill" style="font-size: 22px; color:#010409"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col ps-0">
+                                <a class="text-muted fw-bold">Code</a>
+                            </div>
+                            <div class="col-auto">
+                                <!-- Button -->
+                                <a href="javascript:void(0);" class="btn btn-link fs-16 text-muted">
+                                    <i class="ri-download-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
             <div class="card-body card cta-box text-bg-info">
                 <div class="text-center">
                     <h3 class="m-0 fw-normal cta-box-title">Go to <b>Hosting Europe Info's</b> Developer Website.</h3>
@@ -265,7 +265,7 @@
                     </a>
                 </div>
             </div>
-        </div>
+    </div>
     </div> <!-- end row -->
 </div> <!-- container -->
 @endsection

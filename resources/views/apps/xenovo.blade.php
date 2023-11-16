@@ -222,7 +222,7 @@
                                         </div>
                                     </div>
                                     <div class="col ps-0">
-                                        <a href="javascript:void(0);" class="text-muted fw-bold">Logo</a>
+                                        <a class="text-muted fw-bold">Logo</a>
                                     </div>
                                     <div class="col-auto">
                                         <!-- Button -->
@@ -245,7 +245,7 @@
                                         </div>
                                     </div>
                                     <div class="col ps-0">
-                                        <a href="javascript:void(0);" class="text-muted fw-bold">Favicon</a>
+                                        <a class="text-muted fw-bold">Favicon</a>
                                     </div>
                                     <div class="col-auto">
                                         <!-- Button -->
@@ -262,7 +262,7 @@
                                     <div class="col-auto">
                                         <div class="avatar-sm">
                                             <span class="avatar-title bg-primary-subtle rounded">
-                                               <i class="ri-github-fill" style="font-size: 22px"></i>
+                                               <i class="ri-github-fill" style="font-size: 22px; color:#010409"></i>
                                             </span>
                                         </div>
                                     </div>

@@ -183,7 +183,7 @@
                                         </div>
                                     </div>
                                     <div class="col ps-0">
-                                        <a href="javascript:void(0);" class="text-muted fw-bold">Logo</a>
+                                        <a class="text-muted fw-bold">Logo</a>
                                     </div>
                                     <div class="col-auto">
                                         <!-- Button -->
@@ -206,7 +206,7 @@
                                         </div>
                                     </div>
                                     <div class="col ps-0">
-                                        <a href="javascript:void(0);" class="text-muted fw-bold">Favicon</a>
+                                        <a class="text-muted fw-bold">Favicon</a>
                                     </div>
                                     <div class="col-auto">
                                         <!-- Button -->
@@ -222,8 +222,8 @@
                                 <div class="row align-items-center">
                                     <div class="col-auto">
                                         <div class="avatar-sm">
-                                            <span class="avatar-title bg-secondary rounded">
-                                                ZIP
+                                            <span class="avatar-title bg-primary-subtle rounded">
+                                                <img src="/images/logos/favicon_hosteurope.png" alt="logo" width="22">
                                             </span>
                                         </div>
                                     </div>
