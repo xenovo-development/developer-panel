@@ -37,12 +37,14 @@
                             <div class="col-md-4">
                                 <!-- assignee -->
                                 <p class="mt-2 mb-1 text-muted">Assigned To</p>
-                                <div class="d-flex align-items-start">
-                                    <img src="/images/users/avatar-9.jpg" alt="Arya S" class="rounded-circle me-2" height="24" />
-                                    <div class="w-100">
-                                        <h5 class="mt-1">
-                                            Damla Hocaoğlu
-                                        </h5>
+                                <div class="mt-lg-0 mt-3">
+                                    <div class="avatar-group">
+                                        <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip" data-bs-placement="top" title="Damla">
+                                            <img src="/images/users/damla.png" alt="" class="rounded-circle avatar-sm">
+                                        </a>
+                                        <a href="javascript: void(0);" class="avatar-group-item" data-bs-toggle="tooltip" data-bs-placement="top" title="Emin">
+                                            <img src="/images/users/emin.png" alt="" class="rounded-circle avatar-sm">
+                                        </a>
                                     </div>
                                 </div>
                                 <!-- end assignee -->
