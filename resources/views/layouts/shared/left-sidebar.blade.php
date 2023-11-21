@@ -133,12 +133,12 @@
                 <span> My Account </span>
                 </a>
             </li>
-            <li class="side-nav-item">
+            <!-- <li class="side-nav-item">
                 <a href="{{ route('second', ['auth', 'lock-screen']) }}" class="side-nav-link">
                 <i class="ri-lock-password-line"></i>
                 <span> Lock Screen </span>
                 </a>
-            </li>
+            </li> -->
             <li class="side-nav-item">
                 <a href="{{ route('logout') }}" class="side-nav-link">
                 <i class="ri-logout-box-line"></i>

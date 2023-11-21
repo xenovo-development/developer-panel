@@ -1,8 +1,7 @@
+
 @extends('layouts.vertical', ['page_title' => 'Bluepalm Dev', 'mode' => $mode ?? '', 'demo' => $demo ?? ''])
 
 @section('css')
-    @vite(['node_modules/fullcalendar/main.min.css'])
-@endsection
 <style>
     .iframe-loader {
         position: fixed;
@@ -23,9 +22,11 @@
         100% { transform: rotate(360deg); }
     }
 </style>
+@endsection
+
 @section('content')
-    <!-- Start Content-->
-    <div class="container-fluid">
+     <!-- Start Content-->
+     <div class="container-fluid">
 
         <!-- start page title -->
         <div class="row">
@@ -34,16 +35,16 @@
                     <div class="page-title-right">
                         <ol class="breadcrumb m-0">
                             <li class="breadcrumb-item"><a href="javascript: void(0);">Dashboard</a></li>
-                            <li class="breadcrumb-item"><a href="javascript: void(0);">BluePalm</a></li>
-                            <li class="breadcrumb-item active">BluePalm Developer</li>
+                            <li class="breadcrumb-item"><a href="javascript: void(0);">Bluepalm</a></li>
+                            <li class="breadcrumb-item active">Informations</li>
                         </ol>
                     </div>
-                    <h4 class="page-title">BluePalm</h4>
+                    <h4 class="page-title">Bluepalm</h4>
                 </div>
             </div>
         </div>
         <!-- end page title -->
-
+        
         <div class="row">
             <div class="col-xl-12 col-lg-7">
                 <!-- project card -->
@@ -70,8 +71,7 @@
         </div> <!-- end row -->
 
     </div> <!-- container -->
-@endsection
-<script>
+    <script>
         document.addEventListener("DOMContentLoaded", function () {
             var iframe = document.querySelector('iframe');
             var loader = document.createElement('div');
@@ -83,6 +83,4 @@
             });
         });
     </script>
-@section('script')
-    @vite(['resources/js/pages/demo.calendar.js'])
 @endsection

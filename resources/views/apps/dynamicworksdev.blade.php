@@ -1,8 +1,6 @@
 @extends('layouts.vertical', ['page_title' => 'Dynamic Works Dev', 'mode' => $mode ?? '', 'demo' => $demo ?? ''])
 
 @section('css')
-    @vite(['node_modules/fullcalendar/main.min.css'])
-@endsection
 <style>
     .iframe-loader {
         position: fixed;
@@ -23,6 +21,8 @@
         100% { transform: rotate(360deg); }
     }
 </style>
+@endsection
+
 @section('content')
     <!-- Start Content-->
     <div class="container-fluid">
@@ -69,8 +69,7 @@
             <!-- end col-12 -->
         </div> <!-- end row -->
     </div> <!-- container -->
-@endsection
-<script>
+    <script>
         document.addEventListener("DOMContentLoaded", function () {
             var iframe = document.querySelector('iframe');
             var loader = document.createElement('div');
@@ -82,6 +81,4 @@
             });
         });
     </script>
-@section('script')
-    @vite(['resources/js/pages/demo.calendar.js'])
 @endsection
