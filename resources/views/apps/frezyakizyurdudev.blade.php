@@ -55,15 +55,15 @@
                         Below you can see an image of the test site of the Frezya Kız Yurdu website.
                        </p>
                        <h5 class="mb-3 d-inline-block">Developer Website Link:</h5>
-                        <a href="https://frezyakizyurdu.com/" target="_blank" class="text-muted d-inline-block">
-                        frezyakizyurdu.com
+                        <a href="http://dev.frezyakizyurdu.com/" target="_blank" class="text-muted d-inline-block">
+                        dev.frezyakizyurdu.com
                         </a>
                         <!-- İframe ekleyelim -->                      
                         <!-- end row -->
                     </div>
                     <!-- end card-body-->
                 </div>
-                <iframe src="https://frezyakizyurdu.com/" width="100%" height="800px" style="border: none;"></iframe>
+                <iframe src="http://dev.frezyakizyurdu.com/" width="100%" height="800px" style="border: none;"></iframe>
                 <!-- end card-->
             </div>
             <!-- end col-12 -->

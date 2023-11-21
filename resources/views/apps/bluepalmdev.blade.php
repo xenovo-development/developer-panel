@@ -55,15 +55,15 @@
                         Below you can see an image of the test site of the BluePalm website.
                        </p>
                        <h5 class="mb-3 d-inline-block">Developer Website Link:</h5>
-                        <a href="https://bluepalmgroup.us/" target="_blank" class="text-muted d-inline-block">
-                        bluepalmgroup.us
+                        <a href="https://staging.bluepalm.group/" target="_blank" class="text-muted d-inline-block">
+                        staging.bluepalm.group
                         </a>
                         <!-- İframe ekleyelim -->                      
                         <!-- end row -->
                     </div>
                     <!-- end card-body-->
                 </div>
-                <iframe src="https://bluepalmgroup.us/" width="100%" height="800px" style="border: none;"></iframe>
+                <iframe src="https://staging.bluepalm.group/" width="100%" height="800px" style="border: none;"></iframe>
                 <!-- end card-->
             </div>
             <!-- end col-12 -->

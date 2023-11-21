@@ -55,15 +55,15 @@
                         Below you can see an image of the test site of the Reloxx website.
                        </p>
                        <h5 class="mb-3 d-inline-block">Developer Website Link:</h5>
-                        <a href="https://reloxx.co.uk/" target="_blank" class="text-muted d-inline-block">
-                        reloxx.co.uk
+                        <a href="http://dev.reloxx.co.uk/" target="_blank" class="text-muted d-inline-block">
+                        dev.reloxx.co.uk
                         </a>
                         <!-- İframe ekleyelim -->                      
                         <!-- end row -->
                     </div>
                     <!-- end card-body-->
                 </div>
-                <iframe src="https://reloxx.co.uk/" width="100%" height="800px" style="border: none;"></iframe>
+                <iframe src="http://dev.reloxx.co.uk/" width="100%" height="800px" style="border: none;"></iframe>
                 <!-- end card-->
             </div>
             <!-- end col-12 -->

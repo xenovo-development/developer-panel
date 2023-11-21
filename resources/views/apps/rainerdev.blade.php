@@ -55,15 +55,15 @@
                         Below you can see an image of the test site of the Rainer website.
                        </p>
                        <h5 class="mb-3 d-inline-block">Developer Website Link:</h5>
-                        <a href="https://rainertemizlik.com/" target="_blank" class="text-muted d-inline-block">
-                        rainertemizlik.com
+                        <a href="http://dev.rainertemizlik.com/" target="_blank" class="text-muted d-inline-block">
+                        dev.rainertemizlik.com
                         </a>
                         <!-- İframe ekleyelim -->                      
                         <!-- end row -->
                     </div>
                     <!-- end card-body-->
                 </div>
-                <iframe src="https://rainertemizlik.com/" width="100%" height="800px" style="border: none;"></iframe>
+                <iframe src="http://dev.rainertemizlik.com/" width="100%" height="800px" style="border: none;"></iframe>
                 <!-- end card-->
             </div>
             <!-- end col-12 -->
