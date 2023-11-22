@@ -33,11 +33,10 @@ class AuthenticatedSessionController extends Controller
 
         $request->authenticate();
 
-        $cookie = Cookie::make('devCookie', '$2a$12$ZMRvjt55yjLIVx2kdZjo5O6RiZOd5DE1USIawoAA34gG.N6U3xS86', 60);
 
         $request->session()->regenerate();
 
-        return redirect()->intended(RouteServiceProvider::HOME)->withCookie($cookie);
+        return redirect()->intended(RouteServiceProvider::HOME);
     }
 
     /**
@@ -53,8 +52,6 @@ class AuthenticatedSessionController extends Controller
         $request->session()->invalidate();
 
         $request->session()->regenerateToken();
-
-        Cookie::forget('devCookie');
 
         return redirect(route('login'));
     }
