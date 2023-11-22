@@ -1,7 +1,6 @@
 <?php
 
 use App\Http\Controllers\Auth\UpdateUserController;
-use App\Http\Controllers\DownloadController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RoutingController;
 
