@@ -66,7 +66,7 @@
         <a href="{{ route('second', ['apps', 'frezyahoteldev']) }}" class="card cta-box overflow-hidden fixed-height-card">
             <div class="card-body d-flex align-items-center justify-content-center">
                 <div class="d-flex align-items-center justify-content-center">
-                    <img class="ms-3" src="/images/logos/frezyahotel-logo.png" width="200" height="150" alt="Frezya Logo">
+                    <img class="ms-3" src="/images/logos/frezyahotel_logo.png" width="200" alt="Frezya Logo">
                 </div>
             </div>
             <!-- end card-body -->
@@ -76,7 +76,7 @@
         <a href="{{ route('second', ['apps', 'frezyakizyurdudev']) }}" class="card cta-box overflow-hidden fixed-height-card">
             <div class="card-body d-flex align-items-center justify-content-center">
                 <div class="d-flex align-items-center justify-content-center">
-                    <img class="ms-3" src="/images/logos/frezya_logo.png" width="200" alt="Frezya Logo">
+                    <img class="ms-3" src="/images/logos/frezya-logo.png" width="200" alt="Frezya Logo">
                 </div>
             </div>
             <!-- end card-body -->

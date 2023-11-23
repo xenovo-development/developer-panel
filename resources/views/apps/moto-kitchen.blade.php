@@ -223,17 +223,39 @@
                                     <div class="col-auto">
                                         <div class="avatar-sm">
                                             <span class="avatar-title bg-primary-subtle rounded">
-                                                <img src="/images/logos/favicon_hosteurope.png" alt="logo" width="22">
+                                            <img src="/images/logos/hosting-logo.png" alt="logo" width="22">
                                             </span>
                                         </div>
                                     </div>
                                     <div class="col ps-0">
-                                        <a href="javascript:void(0);" class="text-muted fw-bold">Code</a>
+                                        <a href="https://www.hosting.com.tr/musteri-paneli?logout=true" target="_blank" class="text-muted fw-bold">Code</a>
                                     </div>
                                     <div class="col-auto">
                                         <!-- Button -->
-                                        <a href="javascript:void(0);" class="btn btn-link fs-16 text-muted">
-                                            <i class="ri-download-line"></i>
+                                        <a href="https://www.hosting.com.tr/musteri-paneli?logout=true" target="_blank" class="btn btn-link fs-16 text-muted">
+                                            <i class="ri-link"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-0 shadow-none border">
+                            <div class="p-2">
+                                <div class="row align-items-center">
+                                    <div class="col-auto">
+                                        <div class="avatar-sm">
+                                            <span class="avatar-title bg-primary-subtle rounded">
+                                            <img src="/images/logos/drive-icon.png" alt="logo" width="22">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col ps-0">
+                                        <a href="https://drive.google.com/drive/folders/1vBQe7NzC1tY76EMoQoEL_A7pWpqTCa4R?usp=drive_link" target="_blank" class="text-muted fw-bold">Drive</a>
+                                    </div>
+                                    <div class="col-auto">
+                                        <!-- Button -->
+                                        <a href="https://drive.google.com/drive/folders/1vBQe7NzC1tY76EMoQoEL_A7pWpqTCa4R?usp=drive_link" target="_blank" class="btn btn-link fs-16 text-muted">
+                                            <i class="ri-link"></i>
                                         </a>
                                     </div>
                                 </div>

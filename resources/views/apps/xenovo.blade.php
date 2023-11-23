@@ -267,11 +267,33 @@
                                         </div>
                                     </div>
                                     <div class="col ps-0">
-                                        <a href="https://github.com/xenovo-development/developer-panel" class="text-muted fw-bold">Code</a>
+                                        <a href="https://github.com/xenovo-development/developer-panel" target="_blank" class="text-muted fw-bold">Code</a>
                                     </div>
                                     <div class="col-auto">
                                         <!-- Button -->
-                                        <a href="https://github.com/xenovo-development/developer-panel" class="btn btn-link fs-16 text-muted">
+                                        <a href="https://github.com/xenovo-development/developer-panel" target="_blank" class="btn btn-link fs-16 text-muted">
+                                            <i class="ri-link"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-0 shadow-none border">
+                            <div class="p-2">
+                                <div class="row align-items-center">
+                                    <div class="col-auto">
+                                        <div class="avatar-sm">
+                                            <span class="avatar-title bg-primary-subtle rounded">
+                                            <img src="/images/logos/drive-icon.png" alt="logo" width="22">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col ps-0">
+                                        <a href="https://drive.google.com/drive/folders/1vBQe7NzC1tY76EMoQoEL_A7pWpqTCa4R?usp=drive_link" target="_blank" class="text-muted fw-bold">Drive</a>
+                                    </div>
+                                    <div class="col-auto">
+                                        <!-- Button -->
+                                        <a href="https://drive.google.com/drive/folders/1vBQe7NzC1tY76EMoQoEL_A7pWpqTCa4R?usp=drive_link" target="_blank" class="btn btn-link fs-16 text-muted">
                                             <i class="ri-link"></i>
                                         </a>
                                     </div>
