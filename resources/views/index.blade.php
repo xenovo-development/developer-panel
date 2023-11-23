@@ -53,10 +53,10 @@
         </a>
     </div> <!-- end col -->
     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-        <a href="{{ route('second', ['apps', 'hostinggroupdev']) }}" class="card cta-box overflow-hidden fixed-height-card">
+        <a href="{{ route('second', ['apps', 'hostingeuropedashboarddev']) }}" class="card cta-box overflow-hidden fixed-height-card">
             <div class="card-body d-flex align-items-center justify-content-center">
                 <div class="d-flex align-items-center justify-content-center">
-                    <img class="ms-3" src="/images/logos/hostingeurope_logo.png" width="200" alt="Hosting Europe Logo">
+                    <img class="ms-3" src="/images/logos/hostingeuropedashboard-logo.png" width="200" alt="Hosting Europe Logo">
                 </div>
             </div>
             <!-- end card-body -->
@@ -66,7 +66,7 @@
         <a href="{{ route('second', ['apps', 'frezyahoteldev']) }}" class="card cta-box overflow-hidden fixed-height-card">
             <div class="card-body d-flex align-items-center justify-content-center">
                 <div class="d-flex align-items-center justify-content-center">
-                    <img class="ms-3" src="/images/logos/frezya_logo.png" width="200" alt="Frezya Logo">
+                    <img class="ms-3" src="/images/logos/frezyahotel-logo.png" width="200" height="150" alt="Frezya Logo">
                 </div>
             </div>
             <!-- end card-body -->

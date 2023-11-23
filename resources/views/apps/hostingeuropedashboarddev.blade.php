@@ -1,4 +1,4 @@
-@extends('layouts.vertical', ['page_title' => 'Hosting Europe Group Dev', 'mode' => $mode ?? '', 'demo' => $demo ?? ''])
+@extends('layouts.vertical', ['page_title' => 'Hosting Europe Dashboard Dev', 'mode' => $mode ?? '', 'demo' => $demo ?? ''])
 
 @section('css')
 <style>
@@ -34,11 +34,11 @@
                     <div class="page-title-right">
                         <ol class="breadcrumb m-0">
                             <li class="breadcrumb-item"><a href="javascript: void(0);">Dashboard</a></li>
-                            <li class="breadcrumb-item"><a href="javascript: void(0);">Hosting Europe Group</a></li>
-                            <li class="breadcrumb-item active">Hosting Europe Group Developer</li>
+                            <li class="breadcrumb-item"><a href="javascript: void(0);">Hosting Europe Dashboard</a></li>
+                            <li class="breadcrumb-item active">Hosting Europe Dashboard Developer</li>
                         </ol>
                     </div>
-                    <h4 class="page-title">Hosting Europe Group</h4>
+                    <h4 class="page-title">Hosting Europe Dashboard</h4>
                 </div>
             </div>
         </div>
@@ -50,20 +50,20 @@
                 <div class="card d-block">
                     <div class="card-body">
                         <div class="clearfix"></div>
-                        <h4 class="mt-2 mb-2">Hosting Europe Group Website</h4>
+                        <h4 class="mt-2 mb-2">Hosting Europe Dashboard Website</h4>
                         <p class="text-muted">
-                        Below you can see an image of the test site of the Hosting Europe Group website.
+                        Below you can see an image of the test site of the Hosting Europe Dashboard website.
                        </p>
                        <h5 class="mb-3 d-inline-block">Developer Website Link:</h5>
-                        <a href="https://hostingeurope.group/" target="_blank" class="text-muted d-inline-block">
-                        hostingeurope.group
+                        <a href="https://dashboard.hostingeurope.info/" target="_blank" class="text-muted d-inline-block">
+                        dashboard.hostingeurope.info
                         </a>
                         <!-- İframe ekleyelim -->                      
                         <!-- end row -->
                     </div>
                     <!-- end card-body-->
                 </div>
-                <iframe src="https://hostingeurope.group/" width="100%" height="800px" style="border: none;"></iframe>
+                <iframe src="https://dashboard.hostingeurope.info/" width="100%" height="800px" style="border: none;"></iframe>
                 <!-- end card-->
             </div>
             <!-- end col-12 -->

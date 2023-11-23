@@ -1,4 +1,4 @@
-@extends('layouts.vertical', ['page_title' => 'Hosting Europe Group', 'mode' => $mode ?? '', 'demo' => $demo ?? ''])
+@extends('layouts.vertical', ['page_title' => 'Hosting Europe Dashboard', 'mode' => $mode ?? '', 'demo' => $demo ?? ''])
 
 @section('css')
     @vite(['node_modules/quill/dist/quill.core.css', 'node_modules/quill/dist/quill.snow.css'])
@@ -15,11 +15,11 @@
             <div class="page-title-right">
                 <ol class="breadcrumb m-0">
                     <li class="breadcrumb-item"><a href="javascript: void(0);">Dashboard</a></li>
-                    <li class="breadcrumb-item"><a href="javascript: void(0);">Hosting Europe Group</a></li>
+                    <li class="breadcrumb-item"><a href="javascript: void(0);">Hosting Europe Dashboard</a></li>
                     <li class="breadcrumb-item active">Informations</li>
                 </ol>
             </div>
-            <h4 class="page-title">Hosting Europe Group</h4>
+            <h4 class="page-title">Hosting Europe Dashboard</h4>
         </div>
     </div>
 </div>
@@ -32,7 +32,7 @@
             <div class="card-body">
                 <div class="clearfix"></div>
 
-                <h4 class="mt-2">Hosting Europe Group Website</h4>
+                <h4 class="mt-2">Hosting Europe Dashboard Website</h4>
 
                 <div class="row">
                     <div class="col-md-4">
@@ -41,7 +41,7 @@
                         <div class="mt-lg-0 mt-3">
                             <div class="avatar-group">
                                 <a href="javascript: void(0);" class="avatar-group-item bg-light border" data-bs-toggle="tooltip" data-bs-placement="top" title="Damla">
-                                    <img src="/images/users/damla.png" alt="" class="rounded-circle avatar-sm">
+                                    <img src="/images/users/Emin.png" alt="" class="rounded-circle avatar-sm">
                                 </a>
                             </div>
                         </div>
@@ -56,7 +56,7 @@
                             <i class="ri-award-line fs-18 text-success me-1"></i>
                             <div class="w-100">
                                 <h5 class="mt-1">
-                                    Hosting Europe Group Website
+                                    Hosting Europe Dashboard Website
                                 </h5>
                             </div>
                         </div>
@@ -70,7 +70,7 @@
                             <i class="ri-code-s-slash-fill fs-18 text-success me-1"></i>
                             <div class="w-100">
                                 <h5 class="mt-1">
-                                    Wordpress
+                                    Php - Laravel
                                 </h5>
                             </div>
                         </div>
@@ -83,12 +83,12 @@
                 <h5 class="mt-3">Overview:</h5>
 
                 <p class="text-muted">
-                This special site is a WordPress page that exclusively provides redirects to the Hosting Europe Info website and dashboard, consisting of only a single page. Designed to seamlessly achieve two crucial objectives, this page offers a perfect blend of minimalism and user-friendliness.
+                This website is under development. The domain address may change. 
                 </p>
 
                 <h5 class="mb-3 d-inline-block">Live Link:</h5>
-                <a href="https://hostingeurope.group/" target="_blank" class="text-muted d-inline-block">
-                hostingeurope.group
+                <a href="https://dashboard.hostingeurope.info/" target="_blank" class="text-muted d-inline-block">
+                dashboard.hostingeurope.info
                 </a>
                 <div class="row">
                     <div class="col-md-4">
@@ -192,7 +192,7 @@
                             <div class="col-auto">
                                 <div class="avatar-sm">
                                     <span class="avatar-title bg-primary-subtle text-primary rounded">
-                                        <img src="/images/logos/hostingeurope_logo.png" alt="logo" width="40">
+                                        <img src="/images/logos/hostingeuropedashboard-logo.png" alt="logo" width="40">
                                     </span>
                                 </div>
                             </div>
@@ -201,7 +201,7 @@
                             </div>
                             <div class="col-auto">
                                 <!-- Button -->
-                                <a href="{{env('APP_URL')}}/images/logos/hostingeurope_logo.png" class="btn btn-link fs-16 text-muted" download="hostingeurope_logo">
+                                <a href="{{env('APP_URL')}}/images/logos/hostingeuropedashboard-logo.png" class="btn btn-link fs-16 text-muted" download="hostingeurope_logo">
                                     <i class="ri-download-line"></i>
                                 </a>
                             </div>
@@ -257,10 +257,10 @@
         </div>
             <div class="card-body card cta-box text-bg-info">
                 <div class="text-center">
-                    <h3 class="m-0 fw-normal cta-box-title">Go to <b>Hosting Europe Group's</b> Developer Website.</h3>
+                    <h3 class="m-0 fw-normal cta-box-title">Go to <b>Hosting Europe Dashboard's</b> Developer Website.</h3>
                     <img class="my-3" src="/images/svg/startman.svg" width="138" alt="Generic placeholder image">
                     <br />
-                    <a href="{{ route('second', ['apps', 'hostinggroupdev']) }}" class="btn btn-sm btn-light rounded-pill">
+                    <a href="{{ route('second', ['apps', 'hostingeuropedashboarddev']) }}" class="btn btn-sm btn-light rounded-pill">
                         <i class="ri-arrow-right-line"></i> Developer Website
                     </a>
                 </div>

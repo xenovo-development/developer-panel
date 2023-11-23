@@ -74,7 +74,7 @@
                             <a href="{{ route('second', ['apps', 'hostingeuropeinfo']) }}">Hosting Europe Info</a>
                         </li>
                         <li>
-                            <a href="{{ route('second', ['apps', 'hostingeuropegroup']) }}">Hosting Europe</a>
+                            <a href="{{ route('second', ['apps', 'hostingeuropedashboard']) }}">Hosting Europe Dashboard</a>
                         </li>
                     </ul>
                 </div>

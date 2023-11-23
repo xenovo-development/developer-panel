@@ -85,8 +85,8 @@
                             This website, utilized by Frezya Hotel, is constructed with WordPress, a robust and flexible content management system. This choice provides developers with ease of use, extensive plugin support, and scalability advantages.
                         </p>
                         <h5 class="mb-3 d-inline-block">Live Link:</h5>
-                        <a href="https://frezyakizyurdu.com/" target="_blank" class="text-muted d-inline-block">
-                            frezyakizyurdu.com
+                        <a href="https://frezyahotel.com/" target="_blank" class="text-muted d-inline-block">
+                            frezyahotel.com
                         </a>
                         <div class="row">
                             <div class="col-md-4">
@@ -190,7 +190,7 @@
                                     <div class="col-auto">
                                         <div class="avatar-sm">
                                             <span class="avatar-title bg-primary-subtle text-primary rounded">
-                                                <img src="/images/logos/frezya_logo.png" alt="logo" width="40">
+                                                <img src="/images/logos/frezyahotel-logo.png" alt="logo" width="40">
                                             </span>
                                         </div>
                                     </div>
@@ -199,7 +199,7 @@
                                     </div>
                                     <div class="col-auto">
                                         <!-- Button -->
-                                        <a href="{{env('APP_URL')}}/images/logos/frezya_logo.png" class="btn btn-link fs-16 text-muted" download="frezya_logo">
+                                        <a href="{{env('APP_URL')}}/images/logos/frezyahotel-logo.png" class="btn btn-link fs-16 text-muted" download="frezya_logo">
                                             <i class="ri-download-line"></i>
                                         </a>
                                     </div>
