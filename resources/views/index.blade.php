@@ -132,6 +132,16 @@
             <!-- end card-body -->
         </a>
     </div> <!-- end col -->
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+        <a href="{{ route('second', ['apps', 'quanddev']) }}" class="card cta-box overflow-hidden fixed-height-card">
+            <div class="card-body d-flex align-items-center justify-content-center">
+                <div class="d-flex align-items-center justify-content-center">
+                    <img class="ms-3" src="/images/logos/quand-logo.png" width="200" alt="Quand Logo">
+                </div>
+            </div>
+            <!-- end card-body -->
+        </a>
+    </div> <!-- end col -->
    
 </div>
 

@@ -1,4 +1,4 @@
-@extends('layouts.vertical', ['page_title' => 'Moto Kitchen Dev', 'mode' => $mode ?? '', 'demo' => $demo ?? ''])
+@extends('layouts.vertical', ['page_title' => 'Quand Business Dev', 'mode' => $mode ?? '', 'demo' => $demo ?? ''])
 
 @section('css')
 <style>
@@ -34,11 +34,11 @@
                     <div class="page-title-right">
                         <ol class="breadcrumb m-0">
                             <li class="breadcrumb-item"><a href="javascript: void(0);">Dashboard</a></li>
-                            <li class="breadcrumb-item"><a href="javascript: void(0);">Moto Kitchen</a></li>
-                            <li class="breadcrumb-item active">Moto Kitchen Developer</li>
+                            <li class="breadcrumb-item"><a href="javascript: void(0);">Quand Business</a></li>
+                            <li class="breadcrumb-item active">Quand Business Developer</li>
                         </ol>
                     </div>
-                    <h4 class="page-title">Moto Kitchen</h4>
+                    <h4 class="page-title">Quand Business</h4>
                 </div>
             </div>
         </div>
@@ -50,20 +50,20 @@
                 <div class="card d-block">
                     <div class="card-body">
                         <div class="clearfix"></div>
-                        <h4 class="mt-2 mb-2">Moto Kitchen Website</h4>
+                        <h4 class="mt-2 mb-2">Quand Business Website</h4>
                         <p class="text-muted">
-                        Below you can see an image of the test site of the Moto Kitchen website.
+                        Below you can see an image of the test site of the Quand Business website.
                        </p>
                        <h5 class="mb-3 d-inline-block">Developer Website Link:</h5>
-                        <a href="https://motokitchen.com.tr/" target="_blank" class="text-muted d-inline-block">
-                        motokitchen.com.tr
+                        <a href="http://quandbusiness.com/" target="_blank" class="text-muted d-inline-block">
+                        quandbusiness.com
                         </a>
                         <!-- İframe ekleyelim -->                      
                         <!-- end row -->
                     </div>
                     <!-- end card-body-->
                 </div>
-                <iframe src="https://motokitchen.com.tr/" width="100%" height="800px" style="border: none;"></iframe>
+                <iframe src="http://quandbusiness.com/" width="100%" height="800px" style="border: none;"></iframe>
                 <!-- end card-->
             </div>
             <!-- end col-12 -->

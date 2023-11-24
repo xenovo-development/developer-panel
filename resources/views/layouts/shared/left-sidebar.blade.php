@@ -126,6 +126,12 @@
                     <span> Moto Kitchen </span>
                 </a>
             </li>
+            <li class="side-nav-item">
+                <a href="{{ route('second', ['apps', 'quand']) }}" class="side-nav-link">
+                    <i class="ri-star-s-line"></i>
+                    <span> Quand Business</span>
+                </a>
+            </li>
             <li class="side-nav-title">User</li>
             <li class="side-nav-item">
                 <a href="{{ route('second', ['pages', 'profile']) }}" class="side-nav-link">
