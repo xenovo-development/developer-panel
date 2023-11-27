@@ -55,15 +55,15 @@
                         Below you can see an image of the test site of the Hosting Europe Dashboard website.
                        </p>
                        <h5 class="mb-3 d-inline-block">Developer Website Link:</h5>
-                        <a href="https://dashboard.hostingeurope.info/" target="_blank" class="text-muted d-inline-block">
-                        dashboard.hostingeurope.info
+                        <a href="https://devdashboard.hostingeurope.group/" target="_blank" class="text-muted d-inline-block">
+                        devdashboard.hostingeurope.group
                         </a>
-                        <!-- İframe ekleyelim -->                      
+                        <!-- İframe ekleyelim -->
                         <!-- end row -->
                     </div>
                     <!-- end card-body-->
                 </div>
-                <iframe src="https://dashboard.hostingeurope.info/" width="100%" height="800px" style="border: none;"></iframe>
+                <iframe src="https://devdashboard.hostingeurope.group/?iframe" width="100%" height="800px" style="border: none;"></iframe>
                 <!-- end card-->
             </div>
             <!-- end col-12 -->
