@@ -190,7 +190,7 @@
                                     <div class="col-auto">
                                         <div class="avatar-sm">
                                             <span class="avatar-title bg-primary-subtle text-primary rounded">
-                                                <img src="/images/logos/frezyahotel-logo.png" alt="logo" width="40">
+                                                <img src="/images/logos/frezyahotel_logo.png" alt="logo" width="40">
                                             </span>
                                         </div>
                                     </div>
@@ -199,7 +199,7 @@
                                     </div>
                                     <div class="col-auto">
                                         <!-- Button -->
-                                        <a href="{{env('APP_URL')}}/images/logos/frezyahotel-logo.png" class="btn btn-link fs-16 text-muted" download="frezya_logo">
+                                        <a href="{{env('APP_URL')}}/images/logos/frezyahotel_logo.png" class="btn btn-link fs-16 text-muted" download="frezya_logo">
                                             <i class="ri-download-line"></i>
                                         </a>
                                     </div>
@@ -213,7 +213,7 @@
                                     <div class="col-auto">
                                         <div class="avatar-sm">
                                             <span class="avatar-title bg-primary-subtle text-primary rounded">
-                                                <img src="/images/logos/favicon-fr.png" alt="logo" width="18">
+                                                <img src="/images/logos/favicon-frezyahotel.png" alt="logo" width="18">
                                             </span>
                                         </div>
                                     </div>
@@ -222,7 +222,7 @@
                                     </div>
                                     <div class="col-auto">
                                         <!-- Button -->
-                                        <a href="{{env('APP_URL')}}/images/logos/favicon-fr.png" class="btn btn-link fs-16 text-muted" download="favicon">
+                                        <a href="{{env('APP_URL')}}/images/logos/favicon-frezyahotel.png" class="btn btn-link fs-16 text-muted" download="favicon">
                                             <i class="ri-download-line"></i>
                                         </a>
                                     </div>
