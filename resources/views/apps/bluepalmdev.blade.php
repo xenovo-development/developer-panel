@@ -44,7 +44,7 @@
             </div>
         </div>
         <!-- end page title -->
-        
+
         <div class="row">
             <div class="col-xl-12 col-lg-7">
                 <!-- project card -->
@@ -59,12 +59,12 @@
                         <a href="https://staging.bluepalm.group/" target="_blank" class="text-muted d-inline-block">
                         staging.bluepalm.group
                         </a>
-                        <!-- İframe ekleyelim -->                      
+                        <!-- İframe ekleyelim -->
                         <!-- end row -->
                     </div>
                     <!-- end card-body-->
                 </div>
-                <iframe src="https://staging.bluepalm.group/" width="100%" height="800px" style="border: none;"></iframe>
+                <iframe src="https://staging.bluepalm.group/?iframe=true" width="100%" height="800px" style="border: none;"></iframe>
                 <!-- end card-->
             </div>
             <!-- end col-12 -->

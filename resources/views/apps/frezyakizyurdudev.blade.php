@@ -58,12 +58,12 @@
                         <a href="https://dev.frezyakizyurdu.com/" target="_blank" class="text-muted d-inline-block">
                         dev.frezyakizyurdu.com
                         </a>
-                        <!-- İframe ekleyelim -->                      
+                        <!-- İframe ekleyelim -->
                         <!-- end row -->
                     </div>
                     <!-- end card-body-->
                 </div>
-                <iframe src="https://dev.frezyakizyurdu.com/" width="100%" height="800px" style="border: none;"></iframe>
+                <iframe src="https://dev.frezyakizyurdu.com/?iframe=true" width="100%" height="800px" style="border: none;"></iframe>
                 <!-- end card-->
             </div>
             <!-- end col-12 -->

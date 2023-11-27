@@ -63,7 +63,7 @@
                     </div>
                     <!-- end card-body-->
                 </div>
-                <iframe src="https://dev.dynamicworks.group/" width="100%" height="800px" style="border: none;"></iframe>
+                <iframe src="https://dev.dynamicworks.group/?iframe=true" width="100%" height="800px" style="border: none;"></iframe>
                 <!-- end card-->
             </div>
             <!-- end col-12 -->
