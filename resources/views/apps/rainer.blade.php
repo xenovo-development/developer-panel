@@ -187,7 +187,7 @@
                                 <div class="col-auto">
                                     <div class="avatar-sm">
                                         <span class="avatar-title bg-primary-subtle text-primary rounded">
-                                            <img src="/images/logos/rainer_logo.png" alt="logo" width="40">
+                                            <img src="/images/logos/rainer_tesis_logo.png" alt="logo" width="40">
                                         </span>
                                     </div>
                                 </div>
@@ -196,7 +196,7 @@
                                 </div>
                                 <div class="col-auto">
                                     <!-- Button -->
-                                    <a href="{{env('APP_URL')}}/images/logos/rainer_logo.png" class="btn btn-link fs-16 text-muted" download="rainer_logo">
+                                    <a href="{{env('APP_URL')}}/images/logos/rainer_tesis_logo.png" class="btn btn-link fs-16 text-muted" download="rainer_tesis_logo">
                                         <i class="ri-download-line"></i>
                                     </a>
                                 </div>

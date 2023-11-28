@@ -203,7 +203,7 @@
                                     </div>
                                     <div class="col-auto">
                                         <!-- Button -->
-                                        <a href="{{env('APP_URL')}}/images/logos/quand-logo.png" class="btn btn-link fs-16 text-muted" download="moto_logo">
+                                        <a href="{{env('APP_URL')}}/images/logos/quand-logo.png" class="btn btn-link fs-16 text-muted" download="quand-logo">
                                             <i class="ri-download-line"></i>
                                         </a>
                                     </div>
@@ -226,7 +226,7 @@
                                     </div>
                                     <div class="col-auto">
                                         <!-- Button -->
-                                        <a href="{{env('APP_URL')}}/images/logos/favicon-quand.png" class="btn btn-link fs-16 text-muted" download="favicon-mt">
+                                        <a href="{{env('APP_URL')}}/images/logos/favicon-quand.png" class="btn btn-link fs-16 text-muted" download="favicon-quand">
                                             <i class="ri-download-line"></i>
                                         </a>
                                     </div>

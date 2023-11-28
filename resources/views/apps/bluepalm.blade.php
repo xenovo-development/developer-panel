@@ -231,7 +231,7 @@
                                     </div>
                                     <div class="col-auto">
                                         <!-- Button -->
-                                        <a href="{{env('APP_URL')}}/images/logos/favicon-bp.png" class="btn btn-link fs-16 text-muted" download="favicon">
+                                        <a href="{{env('APP_URL')}}/images/logos/favicon-bp.png" class="btn btn-link fs-16 text-muted" download="favicon-bp">
                                             <i class="ri-download-line"></i>
                                         </a>
                                     </div>

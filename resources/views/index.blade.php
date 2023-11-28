@@ -96,7 +96,7 @@
         <a href="{{ route('second', ['apps', 'rainerdev']) }}" class="card cta-box overflow-hidden fixed-height-card">
             <div class="card-body d-flex align-items-center justify-content-center">
                 <div class="d-flex align-items-center justify-content-center">
-                    <img class="ms-3" src="/images/logos/rainer_logo.png" width="200" alt="Rainer Logo">
+                    <img class="ms-3" src="/images/logos/rainer_tesis_logo.png" width="200" alt="Rainer Logo">
                 </div>
             </div>
             <!-- end card-body -->
