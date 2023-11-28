@@ -184,7 +184,7 @@
                         <!-- Logo -->
                         <div class="card-header py-4 text-center bg-light">
                             <a href="{{ route('any', 'index') }}ml">
-                                <span><img src="/images/logos/xenovo_logo.png" alt="xenovo logo" height="40"></span>
+                                <span><img src="/images/logos/xenovo_logo_dev.png" alt="xenovo logo" height="40"></span>
                             </a>
                         </div>
 

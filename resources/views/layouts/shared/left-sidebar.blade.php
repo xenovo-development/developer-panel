@@ -4,20 +4,20 @@
     <!-- Brand Logo Light -->
     <a href="{{ route('any', 'index') }}" class="logo logo-light">
         <span class="logo-lg">
-            <img src="/images/logos/xenovo_logo.png" alt="logo">
+            <img src="/images/logos/xenovo_logo_dev.png" alt="logo">
         </span>
         <span class="logo-sm">
-            <img src="/images/logos/favicon.png" alt="small logo">
+            <img src="/images/logos/favicon-dev.png" alt="small logo">
         </span>
     </a>
 
     <!-- Brand Logo Dark -->
     <a href="{{ route('any', 'index') }}" class="logo logo-dark">
         <span class="logo-lg">
-            <img src="/images/logos/xenovo_logo.png" alt="logo">
+        <img src="/images/logos/xenovo_logo_dev.png" alt="logo">
         </span>
         <span class="logo-sm">
-            <img src="/images/logos/favicon.png" alt="small logo">
+        <img src="/images/logos/favicon-dev.png" alt="small logo">
         </span>
     </a>
 

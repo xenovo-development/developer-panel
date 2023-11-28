@@ -82,8 +82,8 @@
                     This website, utilized by Rainer, is constructed with WordPress, a robust and flexible content management system. This choice provides developers with ease of use, extensive plugin support, and scalability advantages.
                     </p>
                     <h5 class="mb-3 d-inline-block">Live Link:</h5>
-                    <a href="https://rainertemizlik.com/" target="_blank" class="text-muted d-inline-block">
-                        rainertemizlik.com
+                    <a href="https://rainer.com.tr" target="_blank" class="text-muted d-inline-block">
+                        rainer.com.tr
                     </a>
                     <div class="row">
                         <div class="col-md-4">

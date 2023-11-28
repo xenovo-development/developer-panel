@@ -8,20 +8,20 @@
                 <!-- Logo light -->
                 <a href="/" class="logo-light">
                     <span class="logo-lg">
-                        <img src="/images/logos/favicon.png" alt="logo">
+                        <img src="/images/logos/favicon_dev.png" alt="logo">
                     </span>
                     <span class="logo-sm">
-                        <img src="/images/logos/favicon.png" alt="small logo">
+                        <img src="/images/logos/favicon_dev.png" alt="small logo">
                     </span>
                 </a>
 
                 <!-- Logo Dark -->
                 <a href="/" class="logo-dark">
                     <span class="logo-lg">
-                        <img src="/images/logos/favicon.png" alt="dark logo">
+                        <img src="/images/logos/favicon_dev.png" alt="dark logo">
                     </span>
                     <span class="logo-sm">
-                        <img src="/images/logos/favicon.png" alt="small logo">
+                        <img src="/images/logos/favicon_dev.png" alt="small logo">
                     </span>
                 </a>
             </div>

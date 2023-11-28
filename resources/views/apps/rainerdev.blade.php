@@ -55,15 +55,17 @@
                         Below you can see an image of the test site of the Rainer website.
                        </p>
                        <h5 class="mb-3 d-inline-block">Developer Website Link:</h5>
-                        <a href="https://dev.rainertemizlik.com/" target="_blank" class="text-muted d-inline-block">
-                        dev.rainertemizlik.com
+                        <a href="https://dev.rainer.com.tr/" target="_blank" class="text-muted d-inline-block">
+                        dev.rainer.com.tr 
                         </a>
+                        <br>
+                        <b>(Dev environment is not active at the moment. It will be added during the day.)</b>
                         <!-- İframe ekleyelim -->                      
                         <!-- end row -->
                     </div>
                     <!-- end card-body-->
                 </div>
-                <iframe src="https://dev.rainertemizlik.com/" width="100%" height="800px" style="border: none;"></iframe>
+                <iframe src="https://rainer.com.tr/" width="100%" height="800px" style="border: none;"></iframe>
                 <!-- end card-->
             </div>
             <!-- end col-12 -->
