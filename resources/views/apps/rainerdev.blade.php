@@ -59,7 +59,6 @@
                         devrainer.pages.dev 
                         </a>
                         <br>
-                        <!-- İframe ekleyelim -->                      
                         <!-- end row -->
                     </div>
                     <!-- end card-body-->
