@@ -55,15 +55,15 @@
                         Below you can see an image of the test site of the Rainer website.
                        </p>
                        <h5 class="mb-3 d-inline-block">Developer Website Link:</h5>
-                        <a href="https://devrainer.pages.dev/" target="_blank" class="text-muted d-inline-block">
-                        devrainer.pages.dev 
+                        <a href="https://devrainertesis.pages.dev/" target="_blank" class="text-muted d-inline-block">
+                        devrainertesis.pages.dev 
                         </a>
                         <br>
                         <!-- end row -->
                     </div>
                     <!-- end card-body-->
                 </div>
-                <iframe src="https://devrainer.pages.dev/" width="100%" height="800px" style="border: none;"></iframe>
+                <iframe src="https://devrainertesis.pages.dev/" width="100%" height="800px" style="border: none;"></iframe>
                 <!-- end card-->
             </div>
             <!-- end col-12 -->
