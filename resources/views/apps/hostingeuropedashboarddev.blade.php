@@ -63,7 +63,7 @@
                     </div>
                     <!-- end card-body-->
                 </div>
-                <iframe src="https://devdashboard.hostingeurope.group/?iframe" width="100%" height="800px" style="border: none;"></iframe>
+                <iframe src="https://devdashboard.hostingeurope.group/?iframe=true" width="100%" height="800px" style="border: none;"></iframe>
                 <!-- end card-->
             </div>
             <!-- end col-12 -->
