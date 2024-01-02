@@ -83,12 +83,12 @@
                 <h5 class="mt-3">Overview:</h5>
 
                 <p class="text-muted">
-                This website is under development. The domain address may change. 
+                This website is under development. The domain address may change.
                 </p>
 
                 <h5 class="mb-3 d-inline-block">Live Link:</h5>
-                <a href="https://dashboard.hostingeurope.info/" target="_blank" class="text-muted d-inline-block">
-                dashboard.hostingeurope.info
+                <a href="https://dashboard.hostingeurope.group/" target="_blank" class="text-muted d-inline-block">
+                dashboard.hostingeurope.group
                 </a>
                 <div class="row">
                     <div class="col-md-4">
