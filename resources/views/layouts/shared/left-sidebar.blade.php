@@ -49,6 +49,15 @@
                     <span> Dashboard </span>
                 </a>
             </li>
+            @if(Auth()->user()['role'] === 'Admin' || Auth()->user()['role'] === 'Developer')
+            <li class="side-nav-title">Daily Tasks</li>
+            <li class="side-nav-item">
+                <a href="{{ route('second', ['task','check']) }}" class="side-nav-link">
+                    <i class="ri-list-check-3"></i>
+                    <span> Check Up </span>
+                </a>
+            </li>
+            @endif
             <li class="side-nav-title">WEBSITES</li>
             <li class="side-nav-item">
                 <a href="{{ route('second', ['apps', 'xenovo']) }}" class="side-nav-link">

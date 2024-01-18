@@ -56,15 +56,15 @@
                         Below you can see an image of the test site of the BluePalm website.
                        </p>
                        <h5 class="mb-3 d-inline-block">Developer Website Link:</h5>
-                        <a href="https://staging.bluepalm.group/" target="_blank" class="text-muted d-inline-block">
-                        staging.bluepalm.group
+                        <a href="https://devbluepalm.xenovo.com.tr/" target="_blank" class="text-muted d-inline-block">
+                            devbluepalm.xenovo.com.tr
                         </a>
                         <!-- İframe ekleyelim -->
                         <!-- end row -->
                     </div>
                     <!-- end card-body-->
                 </div>
-                <iframe src="https://staging.bluepalm.group/?iframe=true" width="100%" height="800px" style="border: none;"></iframe>
+                <iframe src="https://devbluepalm.xenovo.com.tr" width="100%" height="800px" style="border: none;"></iframe>
                 <!-- end card-->
             </div>
             <!-- end col-12 -->

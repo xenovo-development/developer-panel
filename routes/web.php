@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Auth\UpdateUserController;
+use App\Http\Controllers\CheckController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RoutingController;
 
@@ -34,4 +35,6 @@ Route::group(['prefix' => '/', 'middleware'=>'auth'], function () {
     Route::get('{any}', [RoutingController::class, 'root'])->name('any');
 
     Route::post('update-user',[UpdateUserController::class,'store']);
+    Route::post('check',[CheckController::class,'store'])->name('check.submit');
 });
+

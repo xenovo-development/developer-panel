@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use DateTime;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Date;
 
 class RoutingController extends Controller
 {
@@ -39,7 +41,7 @@ class RoutingController extends Controller
 
         $mode = $request->query('mode');
         $demo = $request->query('demo');
-     
+
         if ($first == "assets")
             return redirect('home');
 
@@ -51,6 +53,9 @@ class RoutingController extends Controller
      */
     public function secondLevel(Request $request, $first, $second)
     {
+        $today = new DateTime();
+        $todayDate = $today->format('Y-m-d');
+        $date = $request->query('date');
 
         $mode = $request->query('mode');
         $demo = $request->query('demo');
@@ -58,9 +63,13 @@ class RoutingController extends Controller
         if ($first == "assets")
             return redirect('home');
 
+        if ($first ==='task' && $second ==='check'){
+            $checkData = (new CheckController)->index($date ?? $todayDate);
+        }
 
 
-    return view($first .'.'. $second, ['mode' => $mode, 'demo' => $demo]);
+    return view($first .'.'. $second, ['mode' => $mode, 'demo' => $demo])
+        ->with('checkData',$checkData ?? '' );
     }
 
     /**

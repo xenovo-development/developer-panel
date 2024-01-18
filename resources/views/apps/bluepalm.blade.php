@@ -4,8 +4,8 @@
 @endsection
 
 @section('content')
-     <!-- Start Content-->
-     <div class="container-fluid">
+    <!-- Start Content-->
+    <div class="container-fluid">
 
         <!-- start page title -->
         <div class="row">
@@ -39,10 +39,12 @@
                                 <p class="mt-2 mb-1 text-muted">Assigned To</p>
                                 <div class="mt-lg-0 mt-3">
                                     <div class="avatar-group">
-                                        <a href="javascript: void(0);" class="avatar-group-item bg-light border" data-bs-toggle="tooltip" data-bs-placement="top" title="Damla">
+                                        <a href="javascript: void(0);" class="avatar-group-item bg-light border"
+                                           data-bs-toggle="tooltip" data-bs-placement="top" title="Damla">
                                             <img src="/images/users/damla.png" alt="" class="rounded-circle avatar-sm">
                                         </a>
-                                        <a href="javascript: void(0);" class="avatar-group-item bg-light border" data-bs-toggle="tooltip" data-bs-placement="top" title="Emin">
+                                        <a href="javascript: void(0);" class="avatar-group-item bg-light border"
+                                           data-bs-toggle="tooltip" data-bs-placement="top" title="Emin">
                                             <img src="/images/users/emin.png" alt="" class="rounded-circle avatar-sm">
                                         </a>
                                     </div>
@@ -85,13 +87,17 @@
                         <h5 class="mt-3">Overview:</h5>
 
                         <p class="text-muted">
-                        bluepalmgroup.us is built on a robust and reliable technological infrastructure. Powered by WordPress, known for its flexibility and user-friendly interface, the site's foundation is strong. Additionally, it is integrated with the latest technologies to enhance security and performance.
+                            bluepalmgroup.us is built on a robust and reliable technological infrastructure. Powered by
+                            WordPress, known for its flexibility and user-friendly interface, the site's foundation is
+                            strong. Additionally, it is integrated with the latest technologies to enhance security and
+                            performance.
                         </p>
                         <p class="text-muted">
-                        With the 'Stock Offer' you can gain exclusive access to stocks and financial data.
+                            With the 'Stock Offer' you can gain exclusive access to stocks and financial data.
                         </p>
                         <p class="text-muted mb-4">
-                        Another option is 'Shareholder'; this choice provides access to exclusive content for company shareholders.
+                            Another option is 'Shareholder'; this choice provides access to exclusive content for
+                            company shareholders.
                         </p>
                         <h5 class="mb-3 d-inline-block">Live Link:</h5>
                         <a href="https://bluepalmgroup.us/" target="_blank" class="text-muted d-inline-block">
@@ -104,27 +110,33 @@
                                     <i class="ri-palette-line fs-18 text-success me-1"></i>
                                     <div class="w-100 color-box d-flex flex-wrap" style="gap: 10px;">
                                         <div class="d-flex flex-column align-items-center">
-                                            <div class="color" style="background-color: #181b31; width: 30px; height: 30px;"></div>
+                                            <div class="color"
+                                                 style="background-color: #181b31; width: 30px; height: 30px;"></div>
                                             <span class="mt-2">#181b31</span>
                                         </div>
                                         <div class="d-flex flex-column align-items-center">
-                                            <div class="color" style="background-color: #356a99; width: 30px; height: 30px;"></div>
+                                            <div class="color"
+                                                 style="background-color: #356a99; width: 30px; height: 30px;"></div>
                                             <span class="mt-2">#356a99</span>
                                         </div>
                                         <div class="d-flex flex-column align-items-center">
-                                            <div class="color" style="background-color: #5d6371; width: 30px; height: 30px;"></div>
+                                            <div class="color"
+                                                 style="background-color: #5d6371; width: 30px; height: 30px;"></div>
                                             <span class="mt-2">#5d6371</span>
                                         </div>
                                         <div class="d-flex flex-column align-items-center">
-                                            <div class="color" style="background-color: #191919; width: 30px; height: 30px;"></div>
+                                            <div class="color"
+                                                 style="background-color: #191919; width: 30px; height: 30px;"></div>
                                             <span class="mt-2">#191919</span>
                                         </div>
                                         <div class="d-flex flex-column align-items-center">
-                                            <div class="color" style="background-color: #dedfe0; width: 30px; height: 30px;"></div>
+                                            <div class="color"
+                                                 style="background-color: #dedfe0; width: 30px; height: 30px;"></div>
                                             <span class="mt-2">#dedfe0</span>
                                         </div>
                                         <div class="d-flex flex-column align-items-center">
-                                            <div class="color" style="background-color: #888888; width: 30px; height: 30px;"></div>
+                                            <div class="color"
+                                                 style="background-color: #888888; width: 30px; height: 30px;"></div>
                                             <span class="mt-2">#888888</span>
                                         </div>
                                     </div>
@@ -175,7 +187,7 @@
                                 <div class="p-2">
                                     <div class="row align-items-center">
                                         <div class="col-auto">
-                                            <img data-dz-thumbnail src="#" class="avatar-sm rounded bg-light" alt="" />
+                                            <img data-dz-thumbnail src="#" class="avatar-sm rounded bg-light" alt=""/>
                                         </div>
                                         <div class="col ps-0">
                                             <a href="javascript:void(0);" class="text-muted fw-bold" data-dz-name></a>
@@ -208,7 +220,8 @@
                                     </div>
                                     <div class="col-auto">
                                         <!-- Button -->
-                                        <a href="{{env('APP_URL')}}/images/logos/bluepalm_logo.png" class="btn btn-link fs-16 text-muted" download="bluepalm_logo">
+                                        <a href="{{env('APP_URL')}}/images/logos/bluepalm_logo.png"
+                                           class="btn btn-link fs-16 text-muted" download="bluepalm_logo">
                                             <i class="ri-download-line"></i>
                                         </a>
                                     </div>
@@ -231,7 +244,8 @@
                                     </div>
                                     <div class="col-auto">
                                         <!-- Button -->
-                                        <a href="{{env('APP_URL')}}/images/logos/favicon-bp.png" class="btn btn-link fs-16 text-muted" download="favicon-bp">
+                                        <a href="{{env('APP_URL')}}/images/logos/favicon-bp.png"
+                                           class="btn btn-link fs-16 text-muted" download="favicon-bp">
                                             <i class="ri-download-line"></i>
                                         </a>
                                     </div>
@@ -249,11 +263,13 @@
                                         </div>
                                     </div>
                                     <div class="col ps-0">
-                                        <a href="https://sso.hosteurope.de/?app=kis&path=%2Fadministration%2Fwebhosting%2Fadmin.php%3Fmenu%3D6%26mode%3Dssl_list%26wp_id%3D13366640" target="_blank" class="text-muted fw-bold">Code</a>
+                                        <a href="https://sso.hosteurope.de/?app=kis&path=%2Fadministration%2Fwebhosting%2Fadmin.php%3Fmenu%3D6%26mode%3Dssl_list%26wp_id%3D13366640"
+                                           target="_blank" class="text-muted fw-bold">Code</a>
                                     </div>
                                     <div class="col-auto">
                                         <!-- Button -->
-                                        <a href="https://sso.hosteurope.de/?app=kis&path=%2Fadministration%2Fwebhosting%2Fadmin.php%3Fmenu%3D6%26mode%3Dssl_list%26wp_id%3D13366640" target="_blank" class="btn btn-link fs-16 text-muted">
+                                        <a href="https://sso.hosteurope.de/?app=kis&path=%2Fadministration%2Fwebhosting%2Fadmin.php%3Fmenu%3D6%26mode%3Dssl_list%26wp_id%3D13366640"
+                                           target="_blank" class="btn btn-link fs-16 text-muted">
                                             <i class="ri-link"></i>
                                         </a>
                                     </div>
@@ -271,11 +287,13 @@
                                         </div>
                                     </div>
                                     <div class="col ps-0">
-                                        <a href="https://drive.google.com/drive/folders/1vBQe7NzC1tY76EMoQoEL_A7pWpqTCa4R?usp=drive_link" target="_blank" class="text-muted fw-bold">Drive</a>
+                                        <a href="https://drive.google.com/drive/folders/1vBQe7NzC1tY76EMoQoEL_A7pWpqTCa4R?usp=drive_link"
+                                           target="_blank" class="text-muted fw-bold">Drive</a>
                                     </div>
                                     <div class="col-auto">
                                         <!-- Button -->
-                                        <a href="https://drive.google.com/drive/folders/1vBQe7NzC1tY76EMoQoEL_A7pWpqTCa4R?usp=drive_link" target="_blank" class="btn btn-link fs-16 text-muted">
+                                        <a href="https://drive.google.com/drive/folders/1vBQe7NzC1tY76EMoQoEL_A7pWpqTCa4R?usp=drive_link"
+                                           target="_blank" class="btn btn-link fs-16 text-muted">
                                             <i class="ri-link"></i>
                                         </a>
                                     </div>
@@ -288,8 +306,9 @@
                     <div class="text-center">
                         <h3 class="m-0 fw-normal cta-box-title">Go to <b>Bluepalm's </b>Developer Website.</h3>
                         <img class="my-3" src="/images/svg/startman.svg" width="138" alt="Generic placeholder image">
-                        <br />
-                        <a href="{{ route('second', ['apps', 'bluepalmdev']) }}" class="btn btn-sm btn-light rounded-pill">
+                        <br/>
+                        <a href="{{ route('second', ['apps', 'bluepalmdev']) }}"
+                           class="btn btn-sm btn-light rounded-pill">
                             <i class="ri-arrow-right-line"></i> Developer Website
                         </a>
                     </div>

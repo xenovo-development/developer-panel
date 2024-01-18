@@ -14,16 +14,8 @@
                 <!-- start page title -->
                 <div class="page-title-box">
                     <div class="page-title-right">
-                        <div class="app-search">
-                            <form>
-                                <div class="mb-2 position-relative">
-                                    <input type="text" class="form-control border border-dark border-opacity-10" placeholder="Search files...">
-                                    <span class="ri-search-line search-icon"></span>
-                                </div>
-                            </form>
-                        </div>
                     </div>
-                    <h4 class="page-title">Tasks <a href="#" class="btn btn-success btn-sm ms-3">Add New</a></h4>
+                    <h4 class="page-title">Website Check </h4>
                 </div>
                 <!-- end page title -->
 
