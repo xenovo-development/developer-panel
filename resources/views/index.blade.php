@@ -17,10 +17,11 @@
         <div class="col-12">
             <div class="page-title-box">
                 <h4 class="page-title">Dashboard</h4>
+                <h5 class="">Developer Websites</h5>
+              <p>* You can view only developer websites by clicking on the logos below. To visit the main websites, please use the menu on the left.</p>
             </div>
         </div>
     </div>
-
     <div class="row">
         <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
             <a href="{{ route('second', ['apps', 'xenovodev']) }}" class="card cta-box overflow-hidden fixed-height-card">
