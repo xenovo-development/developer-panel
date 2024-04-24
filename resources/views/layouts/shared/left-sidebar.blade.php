@@ -89,6 +89,23 @@
                 </div>
             </li>
             <li class="side-nav-item">
+                <a data-bs-toggle="collapse" href="#sidebarBlue" aria-expanded="false" aria-controls="sidebarBlue" class="side-nav-link">
+                    <i class="ri-star-s-line"></i>
+                    <span> BP Hosting Services </span>
+                    <span class="menu-arrow"></span>
+                </a>
+                <div class="collapse" id="sidebarBlue">
+                    <ul class="side-nav-second-level">
+                        <li>
+                            <a href="{{ route('second', ['apps', 'bluepalmhostingservices']) }}">BP Hosting Services</a>
+                        </li>
+                        <li>
+                            <a href="{{ route('second', ['apps', 'bluepalmhostingservicesdashboard']) }}">BP Hosting Services <br> Dashboard</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="side-nav-item">
                 <a data-bs-toggle="collapse" href="#sidebarTasks" aria-expanded="false" aria-controls="sidebarTasks" class="side-nav-link">
                     <i class="ri-star-s-line"></i>
                     <span> Frezya </span>
@@ -136,6 +153,18 @@
                 <a href="{{ route('second', ['apps', 'quand']) }}" class="side-nav-link">
                     <i class="ri-star-s-line"></i>
                     <span> Quand Business</span>
+                </a>
+            </li>
+            <li class="side-nav-item">
+                <a href="{{ route('second', ['apps', 'rerent']) }}" class="side-nav-link">
+                    <i class="ri-star-s-line"></i>
+                    <span> Rerent</span>
+                </a>
+            </li>
+            <li class="side-nav-item">
+                <a href="{{ route('second', ['apps', 'swwebsite']) }}" class="side-nav-link">
+                    <i class="ri-star-s-line"></i>
+                    <span> SW Website</span>
                 </a>
             </li>
             <li class="side-nav-title">User</li>

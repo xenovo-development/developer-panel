@@ -55,7 +55,7 @@
                         Below you can see an image of the test site of the Quand Business website.
                        </p>
                        <h5 class="mb-3 d-inline-block">Developer Website Link:</h5>
-                        <a href="http://quandbusiness.com/" target="_blank" class="text-muted d-inline-block">
+                        <a href="https://quandbusiness.com/" target="_blank" class="text-muted d-inline-block">
                         quandbusiness.com
                         </a>
                         <!-- İframe ekleyelim -->                      
@@ -63,7 +63,7 @@
                     </div>
                     <!-- end card-body-->
                 </div>
-                <iframe src="http://quandbusiness.com/" width="100%" height="800px" style="border: none;"></iframe>
+                <iframe src="https://quandbusiness.com/" width="100%" height="800px" style="border: none;"></iframe>
                 <!-- end card-->
             </div>
             <!-- end col-12 -->

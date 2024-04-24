@@ -63,6 +63,26 @@
         </a>
     </div> <!-- end col -->
     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+        <a href="{{ route('second', ['apps', 'bluepalmhostingservicesdev']) }}" class="card cta-box overflow-hidden fixed-height-card">
+            <div class="card-body d-flex align-items-center justify-content-center">
+                <div class="d-flex align-items-center justify-content-center">
+                    <img class="ms-3" src="/images/logos/bp-hs-logo-v2.png" width="200" alt="Hosting Europe Logo">
+                </div>
+            </div>
+            <!-- end card-body -->
+        </a>
+    </div> <!-- end col -->
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+        <a href="{{ route('second', ['apps', 'bluepalmhostingservicesdashboarddev']) }}" class="card cta-box overflow-hidden fixed-height-card">
+            <div class="card-body d-flex align-items-center justify-content-center">
+                <div class="d-flex align-items-center justify-content-center">
+                    <img class="ms-3" src="/images/logos/BP-services-dashboard-logo.png" width="200" alt="Hosting Europe Logo">
+                </div>
+            </div>
+            <!-- end card-body -->
+        </a>
+    </div> <!-- end col -->
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
         <a href="{{ route('second', ['apps', 'frezyahoteldev']) }}" class="card cta-box overflow-hidden fixed-height-card">
             <div class="card-body d-flex align-items-center justify-content-center">
                 <div class="d-flex align-items-center justify-content-center">
@@ -132,7 +152,26 @@
             <!-- end card-body -->
         </a>
     </div> <!-- end col -->
-
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+        <a href="{{ route('second', ['apps', 'rerentdev']) }}" class="card cta-box overflow-hidden fixed-height-card">
+            <div class="card-body d-flex align-items-center justify-content-center">
+                <div class="d-flex align-items-center justify-content-center">
+                    <img class="ms-3" src="/images/logos/rerent-logo.png" width="200" alt="Quand Logo">
+                </div>
+            </div>
+            <!-- end card-body -->
+        </a>
+    </div> <!-- end col -->
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+        <a href="{{ route('second', ['apps', 'swwebsitedev']) }}" class="card cta-box overflow-hidden fixed-height-card">
+            <div class="card-body d-flex align-items-center justify-content-center">
+                <div class="d-flex align-items-center justify-content-center">
+                    <img class="ms-3" src="/images/logos/stephan.png" width="200" alt="Quand Logo">
+                </div>
+            </div>
+            <!-- end card-body -->
+        </a>
+    </div> <!-- end col -->
 </div>
 
 </div>

@@ -1,4 +1,4 @@
-@extends('layouts.vertical', ['page_title' => 'Bluepalm', 'mode' => $mode ?? '', 'demo' => $demo ?? ''])
+@extends('layouts.vertical', ['page_title' => 'SW Website', 'mode' => $mode ?? '', 'demo' => $demo ?? ''])
 
 @section('css')
 @endsection
@@ -14,11 +14,11 @@
                 <div class="page-title-right">
                     <ol class="breadcrumb m-0">
                         <li class="breadcrumb-item"><a href="javascript: void(0);">Dashboard</a></li>
-                        <li class="breadcrumb-item"><a href="javascript: void(0);">Bluepalm</a></li>
+                        <li class="breadcrumb-item"><a href="javascript: void(0);">SW Website</a></li>
                         <li class="breadcrumb-item active">Informations</li>
                     </ol>
                 </div>
-                <h4 class="page-title">Bluepalm</h4>
+                <h4 class="page-title">SW Website</h4>
             </div>
         </div>
     </div>
@@ -31,10 +31,10 @@
                 <div class="card-body">
                     <div class="clearfix"></div>
 
-                    <h4 class="mt-2">Bluepalm Website</h4>
+                    <h4 class="mt-2">SW Website</h4>
 
                     <div class="row">
-                        <div class="col-md-3">
+                        <div class="col-md-4">
                             <!-- assignee -->
                             <p class="mt-2 mb-1 text-muted">Assigned To</p>
                             <div class="mt-lg-0 mt-3">
@@ -42,50 +42,34 @@
                                     <a href="javascript: void(0);" class="avatar-group-item bg-light border" data-bs-toggle="tooltip" data-bs-placement="top" title="Damla">
                                         <img src="/images/users/damla.png" alt="" class="rounded-circle avatar-sm">
                                     </a>
-                                    <a href="javascript: void(0);" class="avatar-group-item bg-light border" data-bs-toggle="tooltip" data-bs-placement="top" title="Emin">
-                                        <img src="/images/users/emin.png" alt="" class="rounded-circle avatar-sm">
-                                    </a>
                                 </div>
                             </div>
                             <!-- end assignee -->
                         </div>
                         <!-- end col -->
 
-                        <div class="col-md-3">
+                        <div class="col-md-4">
                             <!-- start due date -->
                             <p class="mt-2 mb-1 text-muted">Project Name</p>
                             <div class="d-flex align-items-start">
                                 <i class="ri-award-line fs-18 text-success me-1"></i>
                                 <div class="w-100">
                                     <h5 class="mt-1">
-                                        Bluepalm Website
+                                        SW Website
                                     </h5>
                                 </div>
                             </div>
                             <!-- end due date -->
                         </div>
 
-                        <div class="col-md-3">
+                        <div class="col-md-4">
                             <!-- start due date -->
-                            <p class="mt-2 mb-1 text-muted"> Frontend Technology</p>
+                            <p class="mt-2 mb-1 text-muted">Technology</p>
                             <div class="d-flex align-items-start">
                                 <i class="ri-code-s-slash-fill fs-18 text-success me-1"></i>
                                 <div class="w-100">
                                     <h5 class="mt-1">
                                         Vue - Nuxt
-                                    </h5>
-                                </div>
-                            </div>
-                            <!-- end due date -->
-                        </div>
-                        <div class="col-md-3">
-                            <!-- start due date -->
-                            <p class="mt-2 mb-1 text-muted"> Backend Technology</p>
-                            <div class="d-flex align-items-start">
-                                <i class="ri-code-s-slash-fill fs-18 text-success me-1"></i>
-                                <div class="w-100">
-                                    <h5 class="mt-1">
-                                        Php - Laravel
                                     </h5>
                                 </div>
                             </div>
@@ -98,17 +82,17 @@
                     <h5 class="mt-3">Overview:</h5>
 
                     <p class="text-muted">
-                        bluepalm.group is built on a robust and reliable technological infrastructure. Developed with Vue.js and Nuxt, supported by PHP Laravel, this site replaces WordPress, known for its flexibility and user-friendly interface. Additionally, it is integrated with the latest technologies to enhance security and performance.
-                    </p>
-                    <p class="text-muted">
-                        With the 'Stock Offer', you can gain exclusive access to stocks and financial data.
-                    </p>
-                    <p class="text-muted mb-4">
-                        Another option is 'Shareholder'; this choice provides access to exclusive content for company shareholders.
+                        Stefan's personal website contains information about himself. This site is developed using Vue.js and Nuxt.
+
+
+
+
+
+
                     </p>
                     <h5 class="mb-3 d-inline-block">Live Link:</h5>
-                    <a href="https://bluepalm.group/" target="_blank" class="text-muted d-inline-block">
-                        bluepalm.group
+                    <a href="https://stephanwestermayer.com/" target="_blank" class="text-muted d-inline-block">
+                        stephanwestermayer.com
                     </a>
                     <div class="row">
                         <div class="col-md-4">
@@ -117,36 +101,20 @@
                                 <i class="ri-palette-line fs-18 text-success me-1"></i>
                                 <div class="w-100 color-box d-flex flex-wrap" style="gap: 10px;">
                                     <div class="d-flex flex-column align-items-center">
-                                        <div class="color" style="background-color: #003347; width: 30px; height: 30px;"></div>
-                                        <span class="mt-2">#003347</span>
+                                        <div class="color" style="background-color: #1b344d; width: 30px; height: 30px;"></div>
+                                        <span class="mt-2">#1b344d</span>
                                     </div>
                                     <div class="d-flex flex-column align-items-center">
-                                        <div class="color" style="background-color: #29496a; width: 30px; height: 30px;"></div>
-                                        <span class="mt-2">#29496a</span>
+                                        <div class="color" style="background-color: #947ec3; width: 30px; height: 30px;"></div>
+                                        <span class="mt-2">#947ec3</span>
                                     </div>
                                     <div class="d-flex flex-column align-items-center">
-                                        <div class="color" style="background-color: #747785; width: 30px; height: 30px;"></div>
-                                        <span class="mt-2">#747785</span>
+                                        <div class="color" style="background-color: #6f6b80; width: 30px; height: 30px;"></div>
+                                        <span class="mt-2">#6f6b80</span>
                                     </div>
                                     <div class="d-flex flex-column align-items-center">
-                                        <div class="color" style="background-color: #767988; width: 30px; height: 30px;"></div>
-                                        <span class="mt-2">#767988</span>
-                                    </div>
-                                    <div class="d-flex flex-column align-items-center">
-                                        <div class="color" style="background-color: #c6c9d8; width: 30px; height: 30px;"></div>
-                                        <span class="mt-2">#c6c9d8</span>
-                                    </div>
-                                    <div class="d-flex flex-column align-items-center">
-                                        <div class="color" style="background-color: #c7cbdf; width: 30px; height: 30px;"></div>
-                                        <span class="mt-2">#c7cbdf</span>
-                                    </div>
-                                    <div class="d-flex flex-column align-items-center">
-                                        <div class="color" style="background-color: #d4e1f6; width: 30px; height: 30px;"></div>
-                                        <span class="mt-2">#d4e1f6</span>
-                                    </div>
-                                    <div class="d-flex flex-column align-items-center">
-                                        <div class="color" style="background-color: #f4d06f; width: 30px; height: 30px;"></div>
-                                        <span class="mt-2">#f4d06f</span>
+                                        <div class="color" style="background-color: #e7efff; width: 30px; height: 30px;"></div>
+                                        <span class="mt-2">#e7efff</span>
                                     </div>
                                 </div>
                             </div>
@@ -157,7 +125,7 @@
                                 <i class="ri-font-size fs-18 text-success me-1"></i>
                                 <div class="w-100">
                                     <h5 class="mt-1">
-                                    Roboto, sans-serif
+                                        Jost, sans-serif
                                     </h5>
                                 </div>
                             </div>
@@ -169,7 +137,7 @@
                                 <i class="ri-brush-3-line fs-18 text-success me-1"></i>
                                 <div class="w-100">
                                     <h5 class="mt-1">
-                                        Pringo
+                                        Dizme
                                     </h5>
                                 </div>
                             </div>
@@ -220,7 +188,7 @@
                                 <div class="col-auto">
                                     <div class="avatar-sm">
                                         <span class="avatar-title bg-primary-subtle text-primary rounded">
-                                            <img src="/images/logos/bluepalm_logo.png" alt="logo" width="40">
+                                            <img src="/images/logos/stephan.png" alt="logo" width="40">
                                         </span>
                                     </div>
                                 </div>
@@ -229,7 +197,7 @@
                                 </div>
                                 <div class="col-auto">
                                     <!-- Button -->
-                                    <a href="{{env('APP_URL')}}/images/logos/bluepalm_logo.png" class="btn btn-link fs-16 text-muted" download="bluepalm_logo">
+                                    <a href="{{env('APP_URL')}}/images/logos/stephan.png" class="btn btn-link fs-16 text-muted" download="quand-logo">
                                         <i class="ri-download-line"></i>
                                     </a>
                                 </div>
@@ -243,7 +211,7 @@
                                 <div class="col-auto">
                                     <div class="avatar-sm">
                                         <span class="avatar-title bg-primary-subtle text-primary rounded">
-                                            <img src="/images/logos/favicon-bp.png" alt="logo" width="18">
+                                            <img src="/images/logos/sw-favicon.png" alt="logo" width="18">
                                         </span>
                                     </div>
                                 </div>
@@ -252,7 +220,7 @@
                                 </div>
                                 <div class="col-auto">
                                     <!-- Button -->
-                                    <a href="{{env('APP_URL')}}/images/logos/favicon-bp.png" class="btn btn-link fs-16 text-muted" download="favicon-bp">
+                                    <a href="{{env('APP_URL')}}/images/logos/sw-favicon.png" class="btn btn-link fs-16 text-muted" download="favicon-quand">
                                         <i class="ri-download-line"></i>
                                     </a>
                                 </div>
@@ -281,42 +249,19 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card mb-0 shadow-none border">
-                        <div class="p-2">
-                            <div class="row align-items-center">
-                                <div class="col-auto">
-                                    <div class="avatar-sm">
-                                        <span class="avatar-title bg-primary-subtle rounded">
-                                            <img src="/images/logos/drive-icon.png" alt="logo" width="22">
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="col ps-0">
-                                    <a href="https://drive.google.com/drive/folders/1vBQe7NzC1tY76EMoQoEL_A7pWpqTCa4R?usp=drive_link" target="_blank" class="text-muted fw-bold">Drive</a>
-                                </div>
-                                <div class="col-auto">
-                                    <!-- Button -->
-                                    <a href="https://drive.google.com/drive/folders/1vBQe7NzC1tY76EMoQoEL_A7pWpqTCa4R?usp=drive_link" target="_blank" class="btn btn-link fs-16 text-muted">
-                                        <i class="ri-link"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
             <div class="card-body card cta-box text-bg-info">
                 <div class="text-center">
-                    <h3 class="m-0 fw-normal cta-box-title">Go to <b>Bluepalm's </b>Developer Website.</h3>
+                    <h3 class="m-0 fw-normal cta-box-title">Go to <b>SW Website's</b> Developer Website.</h3>
                     <img class="my-3" src="/images/svg/startman.svg" width="138" alt="Generic placeholder image">
                     <br />
-                    <a href="{{ route('second', ['apps', 'bluepalmdev']) }}" class="btn btn-sm btn-light rounded-pill">
+                    <a href="{{ route('second', ['apps', 'swwebsitedev']) }}" class="btn btn-sm btn-light rounded-pill">
                         <i class="ri-arrow-right-line"></i> Developer Website
                     </a>
                 </div>
             </div>
         </div>
     </div> <!-- end row -->
-
 </div> <!-- container -->
 @endsection
