@@ -72,23 +72,6 @@
                 </a>
             </li>
             <li class="side-nav-item">
-                <a data-bs-toggle="collapse" href="#sidebarEmail" aria-expanded="false" aria-controls="sidebarEmail" class="side-nav-link">
-                    <i class="ri-star-s-line"></i>
-                    <span> Hosting Europe </span>
-                    <span class="menu-arrow"></span>
-                </a>
-                <div class="collapse" id="sidebarEmail">
-                    <ul class="side-nav-second-level">
-                        <li>
-                            <a href="{{ route('second', ['apps', 'hostingeuropeinfo']) }}">Hosting Europe Info</a>
-                        </li>
-                        <li>
-                            <a href="{{ route('second', ['apps', 'hostingeuropedashboard']) }}">Hosting Europe Dashboard</a>
-                        </li>
-                    </ul>
-                </div>
-            </li>
-            <li class="side-nav-item">
                 <a data-bs-toggle="collapse" href="#sidebarBlue" aria-expanded="false" aria-controls="sidebarBlue" class="side-nav-link">
                     <i class="ri-star-s-line"></i>
                     <span> BP Hosting Services </span>
@@ -126,69 +109,21 @@
                 </a>
             </li>
             <li class="side-nav-item">
-                <a href="{{ route('second', ['apps', 'rainer']) }}" class="side-nav-link">
-                    <i class="ri-star-s-line"></i>
-                    <span> Rainer </span>
-                </a>
-            </li>
-            <li class="side-nav-item">
                 <a href="{{ route('second', ['apps', 'guest24']) }}" class="side-nav-link">
                     <i class="ri-star-s-line"></i>
                     <span> Guest24 </span>
                 </a>
             </li>
             <li class="side-nav-item">
-                <a href="{{ route('second', ['apps', 'reloxx']) }}" class="side-nav-link">
+                <a href="{{ route('second', ['apps', 'rainer']) }}" class="side-nav-link">
                     <i class="ri-star-s-line"></i>
-                    <span> Reloxx </span>
-                </a>
-            </li>
-            <li class="side-nav-item">
-                <a href="{{ route('second', ['apps', 'moto-kitchen']) }}" class="side-nav-link">
-                    <i class="ri-star-s-line"></i>
-                    <span> Moto Kitchen </span>
-                </a>
-            </li>
-            <li class="side-nav-item">
-                <a href="{{ route('second', ['apps', 'quand']) }}" class="side-nav-link">
-                    <i class="ri-star-s-line"></i>
-                    <span> Quand Business</span>
-                </a>
-            </li>
-            <li class="side-nav-item">
-                <a href="{{ route('second', ['apps', 'rerent']) }}" class="side-nav-link">
-                    <i class="ri-star-s-line"></i>
-                    <span> Rerent</span>
+                    <span> Rainer </span>
                 </a>
             </li>
             <li class="side-nav-item">
                 <a href="{{ route('second', ['apps', 'swwebsite']) }}" class="side-nav-link">
                     <i class="ri-star-s-line"></i>
                     <span> SW Website</span>
-                </a>
-            </li>
-            <li class="side-nav-item">
-                <a href="{{ route('second', ['apps', 'amazonriverfunddev']) }}" class="side-nav-link">
-                    <i class="ri-star-s-line"></i>
-                    <span>Amazon Riverfund</span>
-                </a>
-            </li>
-            <li class="side-nav-item">
-                <a href="{{ route('second', ['apps', 'cwgrupdev']) }}" class="side-nav-link">
-                    <i class="ri-star-s-line"></i>
-                    <span> CW Grup</span>
-                </a>
-            </li>
-            <li class="side-nav-item">
-                <a href="{{ route('second', ['apps', 'sabdev']) }}" class="side-nav-link">
-                    <i class="ri-star-s-line"></i>
-                    <span> SAB Turizm İnşaat Gıda</span>
-                </a>
-            </li>
-            <li class="side-nav-item">
-                <a href="{{ route('second', ['apps', 'salesexpertsdev']) }}" class="side-nav-link">
-                    <i class="ri-star-s-line"></i>
-                    <span> Sales Experts</span>
                 </a>
             </li>
             <li class="side-nav-item">
@@ -207,6 +142,71 @@
                         </li>
                     </ul>
                 </div>
+            </li>
+            <li class="side-nav-item">
+                <a href="{{ route('second', ['apps', 'moto-kitchen']) }}" class="side-nav-link">
+                    <i class="ri-star-s-line"></i>
+                    <span> Moto Kitchen </span>
+                </a>
+            </li>
+            <li class="side-nav-item">
+                <a data-bs-toggle="collapse" href="#sidebarEmail" aria-expanded="false" aria-controls="sidebarEmail" class="side-nav-link">
+                    <i class="ri-star-s-line"></i>
+                    <span> Hosting Europe </span>
+                    <span class="menu-arrow"></span>
+                </a>
+                <div class="collapse" id="sidebarEmail">
+                    <ul class="side-nav-second-level">
+                        <li>
+                            <a href="{{ route('second', ['apps', 'hostingeuropeinfo']) }}">Hosting Europe Info</a>
+                        </li>
+                        <li>
+                            <a href="{{ route('second', ['apps', 'hostingeuropedashboard']) }}">Hosting Europe Dashboard</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="side-nav-item">
+                <a href="{{ route('second', ['apps', 'cwgrupdev']) }}" class="side-nav-link">
+                    <i class="ri-star-s-line"></i>
+                    <span> CW Grup</span>
+                </a>
+            </li>
+            <li class="side-nav-item">
+                <a href="{{ route('second', ['apps', 'amazonriverfunddev']) }}" class="side-nav-link">
+                    <i class="ri-star-s-line"></i>
+                    <span>Amazon Riverfund</span>
+                </a>
+            </li>
+            <li class="side-nav-item">
+                <a href="{{ route('second', ['apps', 'rerent']) }}" class="side-nav-link">
+                    <i class="ri-star-s-line"></i>
+                    <span> Rerent</span>
+                </a>
+            </li>
+            <li class="side-nav-item">
+                <a href="{{ route('second', ['apps', 'reloxx']) }}" class="side-nav-link">
+                    <i class="ri-star-s-line"></i>
+                    <span> Reloxx </span>
+                </a>
+            </li>
+            <li class="side-nav-item">
+                <a href="{{ route('second', ['apps', 'salesexpertsdev']) }}" class="side-nav-link">
+                    <i class="ri-star-s-line"></i>
+                    <span> Sales Experts</span>
+                </a>
+            </li>
+            <li class="side-nav-item">
+                <a href="{{ route('second', ['apps', 'sabdev']) }}" class="side-nav-link">
+                    <i class="ri-star-s-line"></i>
+                    <span> SAB Turizm İnşaat Gıda</span>
+                </a>
+            </li>
+            <li class="side-nav-item">
+                <a href="{{ route('second', ['apps', 'quand']) }}" class="side-nav-link">
+                    <i class="ri-star-s-line"></i>
+                    <span> Quand Business</span>
+                </a>
             </li>
             <li class="side-nav-title">User</li>
             <li class="side-nav-item">
