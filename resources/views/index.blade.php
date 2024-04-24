@@ -172,6 +172,66 @@
             <!-- end card-body -->
         </a>
     </div> <!-- end col -->
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+        <a href="{{ route('second', ['apps', 'amazonriverfunddev']) }}" class="card cta-box overflow-hidden fixed-height-card">
+            <div class="card-body d-flex align-items-center justify-content-center">
+                <div class="d-flex align-items-center justify-content-center">
+                    <img class="ms-3" src="/images/logos/amazon-logo-light.png" width="150" alt="Quand Logo">
+                </div>
+            </div>
+            <!-- end card-body -->
+        </a>
+    </div> <!-- end col -->
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+        <a href="{{ route('second', ['apps', 'cwgrupdev']) }}" class="card cta-box overflow-hidden fixed-height-card">
+            <div class="card-body d-flex align-items-center justify-content-center">
+                <div class="d-flex align-items-center justify-content-center">
+                    <img class="ms-3" src="/images/logos/cw-logo.png" width="150" alt="Quand Logo">
+                </div>
+            </div>
+            <!-- end card-body -->
+        </a>
+    </div> <!-- end col -->
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+        <a href="{{ route('second', ['apps', 'sabdev']) }}" class="card cta-box overflow-hidden fixed-height-card">
+            <div class="card-body d-flex align-items-center justify-content-center">
+                <div class="d-flex align-items-center justify-content-center">
+                    <img class="ms-3" src="/images/logos/sab-logo-blue.png" width="150" alt="Quand Logo">
+                </div>
+            </div>
+            <!-- end card-body -->
+        </a>
+    </div> <!-- end col -->
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+        <a href="{{ route('second', ['apps', 'salesexpertsdev']) }}" class="card cta-box overflow-hidden fixed-height-card">
+            <div class="card-body d-flex align-items-center justify-content-center">
+                <div class="d-flex align-items-center justify-content-center">
+                    <img class="ms-3" src="/images/logos/sales-logo.png" width="200" alt="Quand Logo">
+                </div>
+            </div>
+            <!-- end card-body -->
+        </a>
+    </div> <!-- end col -->
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+        <a href="{{ route('second', ['apps', 'tectamundidev']) }}" class="card cta-box overflow-hidden fixed-height-card">
+            <div class="card-body d-flex align-items-center justify-content-center">
+                <div class="d-flex align-items-center justify-content-center">
+                    <img class="ms-3" src="/images/logos/tectamundi-logo.png" width="200" alt="Quand Logo">
+                </div>
+            </div>
+            <!-- end card-body -->
+        </a>
+    </div> <!-- end col -->
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+        <a href="{{ route('second', ['apps', 'tectamundiassetdev']) }}" class="card cta-box overflow-hidden fixed-height-card">
+            <div class="card-body d-flex align-items-center justify-content-center">
+                <div class="d-flex align-items-center justify-content-center">
+                    <img class="ms-3" src="/images/logos/tecta-mundi-asset-logo.png" width="200" alt="Quand Logo">
+                </div>
+            </div>
+            <!-- end card-body -->
+        </a>
+    </div> <!-- end col -->
 </div>
 
 </div>

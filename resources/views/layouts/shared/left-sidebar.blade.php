@@ -167,6 +167,47 @@
                     <span> SW Website</span>
                 </a>
             </li>
+            <li class="side-nav-item">
+                <a href="{{ route('second', ['apps', 'amazonriverfunddev']) }}" class="side-nav-link">
+                    <i class="ri-star-s-line"></i>
+                    <span>Amazon Riverfund</span>
+                </a>
+            </li>
+            <li class="side-nav-item">
+                <a href="{{ route('second', ['apps', 'cwgrupdev']) }}" class="side-nav-link">
+                    <i class="ri-star-s-line"></i>
+                    <span> CW Grup</span>
+                </a>
+            </li>
+            <li class="side-nav-item">
+                <a href="{{ route('second', ['apps', 'sabdev']) }}" class="side-nav-link">
+                    <i class="ri-star-s-line"></i>
+                    <span> SAB Turizm İnşaat Gıda</span>
+                </a>
+            </li>
+            <li class="side-nav-item">
+                <a href="{{ route('second', ['apps', 'salesexpertsdev']) }}" class="side-nav-link">
+                    <i class="ri-star-s-line"></i>
+                    <span> Sales Experts</span>
+                </a>
+            </li>
+            <li class="side-nav-item">
+                <a data-bs-toggle="collapse" href="#tecta" aria-expanded="false" aria-controls="tecta" class="side-nav-link">
+                    <i class="ri-star-s-line"></i>
+                    <span> Tecta Mundi </span>
+                    <span class="menu-arrow"></span>
+                </a>
+                <div class="collapse" id="tecta">
+                    <ul class="side-nav-second-level">
+                        <li>
+                            <a href="{{ route('second', ['apps', 'tectamundidev']) }}">Tecta Mundi</a>
+                        </li>
+                        <li>
+                            <a href="{{ route('second', ['apps', 'tectamundiassetdev']) }}">Tecta Mundi Asset</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
             <li class="side-nav-title">User</li>
             <li class="side-nav-item">
                 <a href="{{ route('second', ['pages', 'profile']) }}" class="side-nav-link">
