@@ -55,15 +55,15 @@
                         Below you can see an image of the test site of the Frezya Hotel website.
                        </p>
                        <h5 class="mb-3 d-inline-block">Developer Website Link:</h5>
-                        <a href="https://devfrezyahotel.pages.dev/" target="_blank" class="text-muted d-inline-block">
-                        devfrezyahotel.pages.dev
+                        <a href="http://frezya.rainer.com.tr/" target="_blank" class="text-muted d-inline-block">
+                        frezya.rainer.com.tr
                         </a>
-                        <!-- İframe ekleyelim -->                      
+                        <!-- İframe ekleyelim -->
                         <!-- end row -->
                     </div>
                     <!-- end card-body-->
                 </div>
-                <iframe src="https://devfrezyahotel.pages.dev/" width="100%" height="800px" style="border: none;"></iframe>
+                <iframe src="http://frezya.rainer.com.tr/" width="100%" height="800px" style="border: none;"></iframe>
                 <!-- end card-->
             </div>
             <!-- end col-12 -->

@@ -31,7 +31,7 @@
             </div>
             <!-- end card-body -->
         </a>
-    </div> <!-- end col --> 
+    </div> <!-- end col -->
     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
         <a href="{{ route('second', ['apps', 'bluepalmdev']) }}" class="card cta-box overflow-hidden fixed-height-card">
             <div class="card-body d-flex align-items-center justify-content-center">
@@ -64,16 +64,6 @@
     </div> <!-- end col -->
     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
         <a href="{{ route('second', ['apps', 'frezyahoteldev']) }}" class="card cta-box overflow-hidden fixed-height-card">
-            <div class="card-body d-flex align-items-center justify-content-center">
-                <div class="d-flex align-items-center justify-content-center">
-                    <img class="ms-3" src="/images/logos/frezyahotel_logo.png" width="200" alt="Frezya Logo">
-                </div>
-            </div>
-            <!-- end card-body -->
-        </a>
-    </div> <!-- end col -->
-    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-        <a href="{{ route('second', ['apps', 'frezyakizyurdudev']) }}" class="card cta-box overflow-hidden fixed-height-card">
             <div class="card-body d-flex align-items-center justify-content-center">
                 <div class="d-flex align-items-center justify-content-center">
                     <img class="ms-3" src="/images/logos/frezya-logo.png" width="200" alt="Frezya Logo">
@@ -142,7 +132,7 @@
             <!-- end card-body -->
         </a>
     </div> <!-- end col -->
-   
+
 </div>
 
 </div>

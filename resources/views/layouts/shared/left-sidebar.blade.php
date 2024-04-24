@@ -99,9 +99,6 @@
                         <li>
                             <a href="{{ route('second', ['apps', 'frezyahotel']) }}">Frezya Hotel</a>
                         </li>
-                        <li>
-                            <a href="{{ route('second', ['apps', 'frezyakizyurdu']) }}">Frezya Kız Yurdu</a>
-                        </li>
                     </ul>
                 </div>
             </li>

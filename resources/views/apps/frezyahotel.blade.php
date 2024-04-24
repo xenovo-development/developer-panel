@@ -280,7 +280,7 @@
                         <h3 class="m-0 fw-normal cta-box-title">Go to <b>Frezya Hotel's</b> Developer Website.</h3>
                         <img class="my-3" src="/images/svg/startman.svg" width="138" alt="Generic placeholder image">
                         <br />
-                        <a href="{{ route('second', ['apps', 'frezyahoteldevdev']) }}" class="btn btn-sm btn-light rounded-pill">
+                        <a href="{{ route('second', ['apps', 'frezyahoteldev']) }}" class="btn btn-sm btn-light rounded-pill">
                             <i class="ri-arrow-right-line"></i> Developer Website
                         </a>
                     </div>
