@@ -203,16 +203,21 @@
                 </a>
             </li>
             <li class="side-nav-item">
-                <a href="{{ route('second', ['apps', 'odsoldrive']) }}" class="side-nav-link">
+                <a data-bs-toggle="collapse" href="#sidebarOdsol" aria-expanded="false" aria-controls="sidebarOdsol" class="side-nav-link">
                     <i class="ri-star-s-line"></i>
-                    <span> Odsol Drive</span>
+                    <span> Odsol </span>
+                    <span class="menu-arrow"></span>
                 </a>
-            </li>
-            <li class="side-nav-item">
-                <a href="{{ route('second', ['apps', 'odsolmail']) }}" class="side-nav-link">
-                    <i class="ri-star-s-line"></i>
-                    <span> Odsol Mail</span>
-                </a>
+                <div class="collapse" id="sidebarOdsol">
+                    <ul class="side-nav-second-level">
+                        <li>
+                            <a href="{{ route('second', ['apps', 'odsoldrive']) }}">Odsol Drive</a>
+                        </li>
+                        <li>
+                            <a href="{{ route('second', ['apps', 'odsolmail']) }}">Odsol Mail</a>
+                        </li>
+                    </ul>
+                </div>
             </li>
             <li class="side-nav-item">
                 <a href="{{ route('second', ['apps', 'sab']) }}" class="side-nav-link">
