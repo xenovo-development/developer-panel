@@ -99,8 +99,8 @@
                                             <span class="mt-2">#17252a</span>
                                         </div>
                                         <div class="d-flex flex-column align-items-center">
-                                            <div class="color" style="background-color: #f79007; width: 30px; height: 30px;"></div>
-                                            <span class="mt-2">#f79007</span>
+                                            <div class="color" style="background-color: #03A9F4; width: 30px; height: 30px;"></div>
+                                            <span class="mt-2">#03A9F4</span>
                                         </div>
                                         <div class="d-flex flex-column align-items-center">
                                             <div class="color" style="background-color: #222b34; width: 30px; height: 30px;"></div>

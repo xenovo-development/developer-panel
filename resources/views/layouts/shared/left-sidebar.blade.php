@@ -135,10 +135,10 @@
                 <div class="collapse" id="tecta">
                     <ul class="side-nav-second-level">
                         <li>
-                            <a href="{{ route('second', ['apps', 'tectamundidev']) }}">Tecta Mundi</a>
+                            <a href="{{ route('second', ['apps', 'tectamundi']) }}">Tecta Mundi</a>
                         </li>
                         <li>
-                            <a href="{{ route('second', ['apps', 'tectamundiassetdev']) }}">Tecta Mundi Asset</a>
+                            <a href="{{ route('second', ['apps', 'tectamundiasset']) }}">Tecta Mundi Asset</a>
                         </li>
                     </ul>
                 </div>
@@ -167,15 +167,21 @@
                 </div>
             </li>
             <li class="side-nav-item">
-                <a href="{{ route('second', ['apps', 'cwgrupdev']) }}" class="side-nav-link">
+                <a href="{{ route('second', ['apps', 'cwgrup']) }}" class="side-nav-link">
                     <i class="ri-star-s-line"></i>
                     <span> CW Grup</span>
                 </a>
             </li>
             <li class="side-nav-item">
-                <a href="{{ route('second', ['apps', 'amazonriverfunddev']) }}" class="side-nav-link">
+                <a href="{{ route('second', ['apps', 'amazonriverfund']) }}" class="side-nav-link">
                     <i class="ri-star-s-line"></i>
                     <span>Amazon Riverfund</span>
+                </a>
+            </li>
+            <li class="side-nav-item">
+                <a href="{{ route('second', ['apps', 'dwms']) }}" class="side-nav-link">
+                    <i class="ri-star-s-line"></i>
+                    <span>DWMS</span>
                 </a>
             </li>
             <li class="side-nav-item">
@@ -191,13 +197,25 @@
                 </a>
             </li>
             <li class="side-nav-item">
-                <a href="{{ route('second', ['apps', 'salesexpertsdev']) }}" class="side-nav-link">
+                <a href="{{ route('second', ['apps', 'salesexperts']) }}" class="side-nav-link">
                     <i class="ri-star-s-line"></i>
                     <span> Sales Experts</span>
                 </a>
             </li>
             <li class="side-nav-item">
-                <a href="{{ route('second', ['apps', 'sabdev']) }}" class="side-nav-link">
+                <a href="{{ route('second', ['apps', 'odsoldrive']) }}" class="side-nav-link">
+                    <i class="ri-star-s-line"></i>
+                    <span> Odsol Drive</span>
+                </a>
+            </li>
+            <li class="side-nav-item">
+                <a href="{{ route('second', ['apps', 'odsolmail']) }}" class="side-nav-link">
+                    <i class="ri-star-s-line"></i>
+                    <span> Odsol Mail</span>
+                </a>
+            </li>
+            <li class="side-nav-item">
+                <a href="{{ route('second', ['apps', 'sab']) }}" class="side-nav-link">
                     <i class="ri-star-s-line"></i>
                     <span> SAB Turizm İnşaat Gıda</span>
                 </a>

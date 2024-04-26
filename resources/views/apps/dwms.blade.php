@@ -1,4 +1,4 @@
-@extends('layouts.vertical', ['page_title' => 'Rerent', 'mode' => $mode ?? '', 'demo' => $demo ?? ''])
+@extends('layouts.vertical', ['page_title' => 'Dynamic Works Media Services', 'mode' => $mode ?? '', 'demo' => $demo ?? ''])
 
 @section('css')
 @endsection
@@ -14,11 +14,11 @@
                 <div class="page-title-right">
                     <ol class="breadcrumb m-0">
                         <li class="breadcrumb-item"><a href="javascript: void(0);">Dashboard</a></li>
-                        <li class="breadcrumb-item"><a href="javascript: void(0);">Rerent</a></li>
+                        <li class="breadcrumb-item"><a href="javascript: void(0);">Dynamic Works Media Services</a></li>
                         <li class="breadcrumb-item active">Informations</li>
                     </ol>
                 </div>
-                <h4 class="page-title">Rerent</h4>
+                <h4 class="page-title">Dynamic Works Media Services</h4>
             </div>
         </div>
     </div>
@@ -31,7 +31,7 @@
                 <div class="card-body">
                     <div class="clearfix"></div>
 
-                    <h4 class="mt-2">Rerent</h4>
+                    <h4 class="mt-2">Dynamic Works Media Services</h4>
 
                     <div class="row">
                         <div class="col-md-4">
@@ -55,7 +55,7 @@
                                 <i class="ri-award-line fs-18 text-success me-1"></i>
                                 <div class="w-100">
                                     <h5 class="mt-1">
-                                        Rerent
+                                        Dynamic Works Media Services
                                     </h5>
                                 </div>
                             </div>
@@ -82,11 +82,11 @@
                     <h5 class="mt-3">Overview:</h5>
 
                     <p class="text-muted">
-                        The Rerent website is currently under construction.
+                        The Dynamic Works Media Services website is currently under construction.
                     </p>
                     <h5 class="mb-3 d-inline-block">Live Link:</h5>
-                    <a href="https://rerent.biz/" target="_blank" class="text-muted d-inline-block">
-                        rerent.biz
+                    <a href="https://dwms.info/" target="_blank" class="text-muted d-inline-block">
+                    dwms.info
                     </a>
                     <div class="row">
                         <div class="col-md-4">
@@ -95,16 +95,16 @@
                                 <i class="ri-palette-line fs-18 text-success me-1"></i>
                                 <div class="w-100 color-box d-flex flex-wrap" style="gap: 10px;">
                                     <div class="d-flex flex-column align-items-center">
-                                        <div class="color" style="background-color: #FAEF9B; width: 30px; height: 30px;"></div>
-                                        <span class="mt-2">#FAEF9B</span>
+                                        <div class="color" style="background-color: #000000; width: 30px; height: 30px;"></div>
+                                        <span class="mt-2">#000000</span>
                                     </div>
                                     <div class="d-flex flex-column align-items-center">
-                                        <div class="color" style="background-color: #6DA4AA; width: 30px; height: 30px;"></div>
-                                        <span class="mt-2">#6DA4AA</span>
+                                        <div class="color" style="background-color: #D00F2D; width: 30px; height: 30px;"></div>
+                                        <span class="mt-2">#D00F2D</span>
                                     </div>
                                     <div class="d-flex flex-column align-items-center">
-                                        <div class="color" style="background-color: #FFFFFF; width: 30px; height: 30px;"></div>
-                                        <span class="mt-2">#FFFFFF</span>
+                                        <div class="color" style="background-color: #F7A944; width: 30px; height: 30px;"></div>
+                                        <span class="mt-2">#F7A944</span>
                                     </div>
                                 </div>
                             </div>
@@ -178,7 +178,7 @@
                                 <div class="col-auto">
                                     <div class="avatar-sm">
                                         <span class="avatar-title bg-primary-subtle text-primary rounded">
-                                            <img src="/images/logos/rerent-logo.png" alt="logo" width="40">
+                                            <img src="/images/logos/dw-media-services-logo.png" alt="logo" width="40">
                                         </span>
                                     </div>
                                 </div>
@@ -187,7 +187,7 @@
                                 </div>
                                 <div class="col-auto">
                                     <!-- Button -->
-                                    <a href="{{env('APP_URL')}}/images/logos/rerent-logo.png" class="btn btn-link fs-16 text-muted" download="quand-logo">
+                                    <a href="{{env('APP_URL')}}/images/logos/dw-media-services-logo.png" class="btn btn-link fs-16 text-muted" download="quand-logo">
                                         <i class="ri-download-line"></i>
                                     </a>
                                 </div>
@@ -201,7 +201,7 @@
                                 <div class="col-auto">
                                     <div class="avatar-sm">
                                         <span class="avatar-title bg-primary-subtle text-primary rounded">
-                                            <img src="/images/logos/rerent-favicon.png" alt="logo" width="18">
+                                            <img src="/images/logos/favicon-dw.png" alt="logo" width="18">
                                         </span>
                                     </div>
                                 </div>
@@ -210,7 +210,7 @@
                                 </div>
                                 <div class="col-auto">
                                     <!-- Button -->
-                                    <a href="{{env('APP_URL')}}/images/logos/rerent-favicon.png" class="btn btn-link fs-16 text-muted" download="favicon-quand">
+                                    <a href="{{env('APP_URL')}}/images/logos/favicon-dw.png" class="btn btn-link fs-16 text-muted" download="favicon-quand">
                                         <i class="ri-download-line"></i>
                                     </a>
                                 </div>
@@ -243,10 +243,10 @@
             </div>
             <div class="card-body card cta-box text-bg-info">
                 <div class="text-center">
-                    <h3 class="m-0 fw-normal cta-box-title">Go to <b>Rerent's</b> Developer Website.</h3>
+                    <h3 class="m-0 fw-normal cta-box-title">Go to <b>Dynamic Works Media Services's</b> Developer Website.</h3>
                     <img class="my-3" src="/images/svg/startman.svg" width="138" alt="Generic placeholder image">
                     <br />
-                    <a href="{{ route('second', ['apps', 'rerentdev']) }}" class="btn btn-sm btn-light rounded-pill">
+                    <a href="{{ route('second', ['apps', 'dwmsdev']) }}" class="btn btn-sm btn-light rounded-pill">
                         <i class="ri-arrow-right-line"></i> Developer Website
                     </a>
                 </div>

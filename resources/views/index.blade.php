@@ -169,6 +169,15 @@
             </a>
         </div> 
         <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+            <a href="{{ route('second', ['apps', 'dwmsdev']) }}" class="card cta-box overflow-hidden fixed-height-card">
+                <div class="card-body d-flex align-items-center justify-content-center">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img class="ms-3" src="/images/logos/dw-media-services-logo.png" width="200" alt="Quand Logo">
+                    </div>
+                </div>
+            </a>
+        </div> 
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
             <a href="{{ route('second', ['apps', 'rerentdev']) }}" class="card cta-box overflow-hidden fixed-height-card">
                 <div class="card-body d-flex align-items-center justify-content-center">
                     <div class="d-flex align-items-center justify-content-center">
@@ -191,6 +200,24 @@
                 <div class="card-body d-flex align-items-center justify-content-center">
                     <div class="d-flex align-items-center justify-content-center">
                         <img class="ms-3" src="/images/logos/sales-logo.png" width="200" alt="Quand Logo">
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+            <a href="{{ route('second', ['apps', 'odsoldrivedev']) }}" class="card cta-box overflow-hidden fixed-height-card">
+                <div class="card-body d-flex align-items-center justify-content-center">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img class="ms-3" src="/images/logos/odsol-drive-logo-version-3.png" width="160" alt="Quand Logo">
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+            <a href="{{ route('second', ['apps', 'odsolmaildev']) }}" class="card cta-box overflow-hidden fixed-height-card">
+                <div class="card-body d-flex align-items-center justify-content-center">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img class="ms-3" src="/images/logos/odsol-mail-logo-version-3.png" width="130" alt="Quand Logo">
                     </div>
                 </div>
             </a>
