@@ -34,11 +34,11 @@
                     <div class="page-title-right">
                         <ol class="breadcrumb m-0">
                             <li class="breadcrumb-item"><a href="javascript: void(0);">Dashboard</a></li>
-                            <li class="breadcrumb-item"><a href="javascript: void(0);">Frezya Kız Yurdu</a></li>
-                            <li class="breadcrumb-item active">Frezya Kız Yurdu Developer</li>
+                            <li class="breadcrumb-item"><a href="javascript: void(0);">Frezya Female Dormitory</a></li>
+                            <li class="breadcrumb-item active">Frezya Female Dormitory Developer</li>
                         </ol>
                     </div>
-                    <h4 class="page-title">Frezya Kız Yurdu</h4>
+                    <h4 class="page-title">Frezya Female Dormitory</h4>
                 </div>
             </div>
         </div>
@@ -50,20 +50,20 @@
                 <div class="card d-block">
                     <div class="card-body">
                         <div class="clearfix"></div>
-                        <h4 class="mt-2 mb-2">Frezya Kız Yurdu Website</h4>
+                        <h4 class="mt-2 mb-2">Frezya Female Dormitory Website</h4>
                         <p class="text-muted">
-                        Below you can see an image of the test site of the Frezya Kız Yurdu website.
+                        Below you can see an image of the test site of the Frezya Female Dormitory website.
                        </p>
                        <h5 class="mb-3 d-inline-block">Developer Website Link:</h5>
-                        <a href="https://frezyakizyurdu.com/" target="_blank" class="text-muted d-inline-block">
-                        frezyakizyurdu.com
+                        <a href="https://devogrenci.frezyahotel.com/" target="_blank" class="text-muted d-inline-block">
+                        devogrenci.frezyahotel.com
                         </a>
                         <!-- İframe ekleyelim -->
                         <!-- end row -->
                     </div>
                     <!-- end card-body-->
                 </div>
-                <iframe src="https://frezyakizyurdu.com/?iframe=true" width="100%" height="800px" style="border: none;"></iframe>
+                <iframe src="https://devogrenci.frezyahotel.com/?iframe=true" width="100%" height="800px" style="border: none;"></iframe>
                 <!-- end card-->
             </div>
             <!-- end col-12 -->

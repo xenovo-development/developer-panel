@@ -1,4 +1,4 @@
-@extends('layouts.vertical', ['page_title' => 'Frezya Hotel Dev', 'mode' => $mode ?? '', 'demo' => $demo ?? ''])
+@extends('layouts.vertical', ['page_title' => 'Epris Dev', 'mode' => $mode ?? '', 'demo' => $demo ?? ''])
 
 @section('css')
 <style>
@@ -34,11 +34,11 @@
                     <div class="page-title-right">
                         <ol class="breadcrumb m-0">
                             <li class="breadcrumb-item"><a href="javascript: void(0);">Dashboard</a></li>
-                            <li class="breadcrumb-item"><a href="javascript: void(0);">Frezya Hotel</a></li>
-                            <li class="breadcrumb-item active">Frezya Hotel Developer</li>
+                            <li class="breadcrumb-item"><a href="javascript: void(0);">Epris</a></li>
+                            <li class="breadcrumb-item active">Epris Developer</li>
                         </ol>
                     </div>
-                    <h4 class="page-title">Frezya Hotel</h4>
+                    <h4 class="page-title">Epris</h4>
                 </div>
             </div>
         </div>
@@ -50,20 +50,20 @@
                 <div class="card d-block">
                     <div class="card-body">
                         <div class="clearfix"></div>
-                        <h4 class="mt-2 mb-2">Frezya Hotel Website</h4>
+                        <h4 class="mt-2 mb-2">Epris Website</h4>
                         <p class="text-muted">
-                        Below you can see an image of the test site of the Frezya Hotel website.
+                        Below you can see an image of the test site of the Epris website.
                        </p>
                        <h5 class="mb-3 d-inline-block">Developer Website Link:</h5>
-                        <a href="https://dev.frezyahotel.com/" target="_blank" class="text-muted d-inline-block">
-                        dev.frezyahotel.com
+                        <a href="https://dev.epris.group/" target="_blank" class="text-muted d-inline-block">
+                        dev.epris.group
                         </a>
-                        <!-- İframe ekleyelim -->
+                        <!-- İframe ekleyelim -->                      
                         <!-- end row -->
                     </div>
                     <!-- end card-body-->
                 </div>
-                <iframe src="https://dev.frezyahotel.com/" width="100%" height="800px" style="border: none;"></iframe>
+                <iframe src="https://dev.epris.group/" width="100%" height="800px" style="border: none;"></iframe>
                 <!-- end card-->
             </div>
             <!-- end col-12 -->

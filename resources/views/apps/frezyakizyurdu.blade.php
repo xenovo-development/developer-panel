@@ -14,11 +14,11 @@
                     <div class="page-title-right">
                         <ol class="breadcrumb m-0">
                             <li class="breadcrumb-item"><a href="javascript: void(0);">Dashboard</a></li>
-                            <li class="breadcrumb-item"><a href="javascript: void(0);">Frezya Kız Yurdu</a></li>
+                            <li class="breadcrumb-item"><a href="javascript: void(0);">Frezya Female Dormitory</a></li>
                             <li class="breadcrumb-item active">Informations</li>
                         </ol>
                     </div>
-                    <h4 class="page-title">Frezya Kız Yurdu</h4>
+                    <h4 class="page-title">Frezya Female Dormitory</h4>
                 </div>
             </div>
         </div>
@@ -31,10 +31,10 @@
                     <div class="card-body">
                         <div class="clearfix"></div>
 
-                        <h4 class="mt-2">Frezya Kız Yurdu Website</h4>
+                        <h4 class="mt-2">Frezya Female Dormitory Website</h4>
 
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-3">
                                 <!-- assignee -->
                                 <p class="mt-2 mb-1 text-muted">Assigned To</p>
                                 <div class="mt-lg-0 mt-3">
@@ -42,34 +42,51 @@
                                         <a href="javascript: void(0);" class="avatar-group-item bg-light border" data-bs-toggle="tooltip" data-bs-placement="top" title="Damla">
                                             <img src="/images/users/damla.png" alt="" class="rounded-circle avatar-sm">
                                         </a>
+                                        <a href="javascript: void(0);" class="avatar-group-item bg-light border" data-bs-toggle="tooltip" data-bs-placement="top" title="Emin">
+                                            <img src="/images/users/emin.png" alt="" class="rounded-circle avatar-sm">
+                                        </a>
                                     </div>
                                 </div>
                                 <!-- end assignee -->
                             </div>
                             <!-- end col -->
 
-                            <div class="col-md-4">
+                            <div class="col-md-3">
                                 <!-- start due date -->
                                 <p class="mt-2 mb-1 text-muted">Project Name</p>
                                 <div class="d-flex align-items-start">
                                     <i class="ri-award-line fs-18 text-success me-1"></i>
                                     <div class="w-100">
                                         <h5 class="mt-1">
-                                            Frezya Kız Yurdu Website
+                                            Frezya Female Dormitory Website
                                         </h5>
                                     </div>
                                 </div>
                                 <!-- end due date -->
                             </div>
 
-                            <div class="col-md-4">
+                            <div class="col-md-3">
                                 <!-- start due date -->
-                                <p class="mt-2 mb-1 text-muted">Technology</p>
+                                <p class="mt-2 mb-1 text-muted">Frontend Technology</p>
                                 <div class="d-flex align-items-start">
                                     <i class="ri-code-s-slash-fill fs-18 text-success me-1"></i>
                                     <div class="w-100">
                                         <h5 class="mt-1">
-                                            Wordpress
+                                            Vue.js - Nuxt.js
+                                        </h5>
+                                    </div>
+                                </div>
+                                <!-- end due date -->
+                            </div>
+                            <!-- end col -->
+                            <div class="col-md-3">
+                                <!-- start due date -->
+                                <p class="mt-2 mb-1 text-muted">Backend Technology</p>
+                                <div class="d-flex align-items-start">
+                                    <i class="ri-code-s-slash-fill fs-18 text-success me-1"></i>
+                                    <div class="w-100">
+                                        <h5 class="mt-1">
+                                            PHP - Laravel
                                         </h5>
                                     </div>
                                 </div>
@@ -82,11 +99,11 @@
                         <h5 class="mt-3">Overview:</h5>
 
                         <p class="text-muted">
-                            This website, utilized by Frezya Kız Yurdu, is constructed with WordPress, a robust and flexible content management system. This choice provides developers with ease of use, extensive plugin support, and scalability advantages.
-                        </p>
+                        The Frezya Female Dormitory Website is currently under construction.
+                                            </p>
                         <h5 class="mb-3 d-inline-block">Live Link:</h5>
-                        <a href="https://frezyakizyurdu.com/" target="_blank" class="text-muted d-inline-block">
-                            frezyakizyurdu.com
+                        <a href="https://ogrenci.frezyahotel.com/" target="_blank" class="text-muted d-inline-block">
+                            ogrenci.frezyahotel.com
                         </a>
                         <div class="row">
                             <div class="col-md-4">
@@ -127,7 +144,7 @@
                                     <i class="ri-font-size fs-18 text-success me-1"></i>
                                     <div class="w-100">
                                         <h5 class="mt-1">
-                                            Poppins, sans-serif
+                                        Barlow, sans-serif
                                         </h5>
                                     </div>
                                 </div>
@@ -139,7 +156,7 @@
                                     <i class="ri-brush-3-line fs-18 text-success me-1"></i>
                                     <div class="w-100">
                                         <h5 class="mt-1">
-                                            Eventen
+                                            Agrikol
                                         </h5>
                                     </div>
                                 </div>

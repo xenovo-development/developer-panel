@@ -99,6 +99,9 @@
                         <li>
                             <a href="{{ route('second', ['apps', 'frezyahotel']) }}">Frezya Hotel</a>
                         </li>
+                        <li>
+                            <a href="{{ route('second', ['apps', 'frezyakizyurdu']) }}">Frezya Female Dormitory</a>
+                        </li>
                     </ul>
                 </div>
             </li>
@@ -229,6 +232,12 @@
                 <a href="{{ route('second', ['apps', 'quand']) }}" class="side-nav-link">
                     <i class="ri-star-s-line"></i>
                     <span> Quand Business</span>
+                </a>
+            </li>
+            <li class="side-nav-item">
+                <a href="{{ route('second', ['apps', 'epris']) }}" class="side-nav-link">
+                    <i class="ri-star-s-line"></i>
+                    <span> Epris</span>
                 </a>
             </li>
             <li class="side-nav-title">User</li>
