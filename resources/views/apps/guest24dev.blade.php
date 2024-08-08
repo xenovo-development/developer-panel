@@ -55,15 +55,15 @@
                         Below you can see an image of the test site of the Guest24 website.
                        </p>
                        <h5 class="mb-3 d-inline-block">Developer Website Link:</h5>
-                        <a href="https://www.guest24.services/" target="_blank" class="text-muted d-inline-block">
-                        guest24.services
+                        <a href="http://www.dev.guest24.services/" target="_blank" class="text-muted d-inline-block">
+                        dev.guest24.services
                         </a>
                         <!-- İframe ekleyelim -->                      
                         <!-- end row -->
                     </div>
                     <!-- end card-body-->
                 </div>
-                <iframe src="https://www.guest24.services/" width="100%" height="800px" style="border: none;"></iframe>
+                <iframe src="http://www.dev.guest24.services/" width="100%" height="800px" style="border: none;"></iframe>
                 <!-- end card-->
             </div>
             <!-- end col-12 -->
