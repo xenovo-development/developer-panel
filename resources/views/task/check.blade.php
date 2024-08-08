@@ -66,30 +66,91 @@
                                     </div>
                                     <div class="form-check mt-1">
                                         <input type="checkbox" name="websites[]" class="form-check-input"
-                                               id="checklist2"
-                                               value="bluepalm.group"
-                                            {{in_array('bluepalm.group',$checkData['websites'] ?? []) ? 'checked':''}}/>
+                                               id="checklist2" value="db.xenovo.com.tr"
+                                            {{in_array('db.xenovo.com.tr',$checkData['websites'] ?? []) ? 'checked':''}}
+                                        />
                                         <label class="form-check-label strikethrough" for="checklist2">
-                                            bluepalm.group <a href="https://bluepalm.group" target="_blank"><i
+                                            db.xenovo.com.tr <a href="https://db.xenovo.com.tr" target="_blank"><i
                                                     class="ri-links-line"></i> Link</a>
                                         </label>
                                     </div>
                                     <div class="form-check mt-1">
                                         <input type="checkbox" name="websites[]" class="form-check-input"
                                                id="checklist3"
-                                               value="account.bluepalm.group"
-                                            {{in_array('account.bluepalm.group',$checkData['websites'] ?? []) ? 'checked':''}}/>
+                                               value="bluepalm.group"
+                                            {{in_array('bluepalm.group',$checkData['websites'] ?? []) ? 'checked':''}}/>
                                         <label class="form-check-label strikethrough" for="checklist3">
-                                            account.bluepalm.group <a href="https://account.bluepalm.group" target="_blank"><i
+                                            bluepalm.group <a href="https://bluepalm.group" target="_blank"><i
                                                     class="ri-links-line"></i> Link</a>
                                         </label>
                                     </div>
                                     <div class="form-check mt-1">
                                         <input type="checkbox" name="websites[]" class="form-check-input"
                                                id="checklist4"
+                                               value="account.bluepalm.group"
+                                            {{in_array('account.bluepalm.group',$checkData['websites'] ?? []) ? 'checked':''}}/>
+                                        <label class="form-check-label strikethrough" for="checklist4">
+                                            account.bluepalm.group <a href="https://account.bluepalm.group" target="_blank"><i
+                                                    class="ri-links-line"></i> Link</a>
+                                        </label>
+                                    </div>
+                                    <div class="form-check mt-1">
+                                        <input type="checkbox" name="websites[]" class="form-check-input"
+                                               id="checklist5"
+                                               value="bluepalm.rentals"
+                                            {{in_array('bluepalm.rentals',$checkData['websites'] ?? []) ? 'checked':''}}/>
+                                        <label class="form-check-label strikethrough" for="checklist5">
+                                            bluepalm.rentals<a href="https://bluepalm.rentals" target="_blank"><i
+                                                    class="ri-links-line"></i> Link</a>
+                                        </label>
+                                    </div>
+                                    <div class="form-check mt-1">
+                                        <input type="checkbox" name="websites[]" class="form-check-input"
+                                               id="checklist6"
+                                               value="info.bluepalm.rentals"
+                                            {{in_array('info.bluepalm.rentals',$checkData['websites'] ?? []) ? 'checked':''}}/>
+                                        <label class="form-check-label strikethrough" for="checklist6">
+                                            info.bluepalm.rentals<a href="https://info.bluepalm.rentals" target="_blank"><i
+                                                    class="ri-links-line"></i> Link</a>
+                                        </label>
+                                    </div>
+                                    <div class="form-check mt-1">
+                                        <input type="checkbox" name="websites[]" class="form-check-input"
+                                               id="checklist24" value="dashboard.bluepalm.rentals"
+                                            {{in_array('dashboard.bluepalm.rentals',$checkData['websites'] ?? []) ? 'checked':''}}
+                                        />
+                                        <label class="form-check-label strikethrough" for="checklist24">
+                                            dashboard.bluepalm.rentals <a href="https://dashboard.bluepalm.rentals" target="_blank"><i
+                                                    class="ri-links-line"></i> Link</a>
+                                        </label>
+                                    </div>
+                                    <div class="form-check mt-1">
+                                        <input type="checkbox" name="websites[]" class="form-check-input"
+                                               id="checklist7"
+                                               value="stephanwestermayer.com"
+                                            {{in_array('stephanwestermayer.com',$checkData['websites'] ?? []) ? 'checked':''}}/>
+                                        <label class="form-check-label strikethrough" for="checklist7">
+                                            stephanwestermayer.com<a href="https://stephanwestermayer.com" target="_blank"><i
+                                                    class="ri-links-line"></i> Link</a>
+                                        </label>
+                                    </div>
+                                    <div class="form-check mt-1">
+                                        <input type="checkbox" name="websites[]" class="form-check-input"
+                                               id="checklist8"
+                                               value="hostingeurope.group"
+                                            {{in_array('hostingeurope.group',$checkData['websites'] ?? []) ? 'checked':''}}/>
+                                        <label class="form-check-label strikethrough" for="checklist8">
+                                            hostingeurope.group <a href="https://hostingeurope.group"
+                                                                        target="_blank"><i class="ri-links-line"></i>
+                                                Link</a>
+                                        </label>
+                                    </div>
+                                    <div class="form-check mt-1">
+                                        <input type="checkbox" name="websites[]" class="form-check-input"
+                                               id="checklist9"
                                                value="info.hostingeurope.group"
                                             {{in_array('info.hostingeurope.group',$checkData['websites'] ?? []) ? 'checked':''}}/>
-                                        <label class="form-check-label strikethrough" for="checklist4">
+                                        <label class="form-check-label strikethrough" for="checklist9">
                                             info.hostingeurope.group <a href="https://info.hostingeurope.group"
                                                                         target="_blank"><i class="ri-links-line"></i>
                                                 Link</a>
@@ -97,11 +158,11 @@
                                     </div>
                                     <div class="form-check mt-1">
                                         <input type="checkbox" name="websites[]" class="form-check-input"
-                                               id="checklist5"
+                                               id="checklist10"
                                                value="dashboard.hostingeurope.group"
                                             {{in_array('dashboard.hostingeurope.group',$checkData['websites'] ?? []) ? 'checked':''}}
                                         />
-                                        <label class="form-check-label strikethrough" for="checklist5">
+                                        <label class="form-check-label strikethrough" for="checklist10">
                                             dashboard.hostingeurope.group <a
                                                 href="https://dashboard.hostingeurope.group" target="_blank"><i
                                                     class="ri-links-line"></i> Link</a>
@@ -109,10 +170,10 @@
                                     </div>
                                     <div class="form-check mt-1">
                                         <input type="checkbox" name="websites[]" class="form-check-input"
-                                               id="checklist6" value="frezyahotel.com"
+                                               id="checklist11" value="frezyahotel.com"
                                             {{in_array('frezyahotel.com',$checkData['websites'] ?? []) ? 'checked':''}}
                                         />
-                                        <label class="form-check-label strikethrough" for="checklist6">
+                                        <label class="form-check-label strikethrough" for="checklist11">
                                             frezyahotel.com <a href="https://frezyahotel.com" target="_blank"><i
                                                     class="ri-links-line"></i> Link</a>
                                         </label>
@@ -121,61 +182,121 @@
                                 <div class="col col-md-6">
                                     <div class="form-check mt-1">
                                         <input type="checkbox" name="websites[]" class="form-check-input"
-                                               id="checklist7" value="dynamicworks.group"
-                                            {{in_array('dynamicworks.group',$checkData['websites'] ?? []) ? 'checked':''}}
-                                        />
-                                        <label class="form-check-label strikethrough" for="checklist7">
-                                            dynamicworks.group <a href="https://dynamicworks.group" target="_blank"><i
-                                                    class="ri-links-line"></i> Link</a>
-                                        </label>
-                                    </div>
-                                    <div class="form-check mt-1">
-                                        <input type="checkbox" name="websites[]" class="form-check-input"
-                                               id="checklist8" value="rainer.com.tr"
-                                            {{in_array('rainer.com.tr',$checkData['websites'] ?? []) ? 'checked':''}}
-                                        />
-                                        <label class="form-check-label strikethrough" for="checklist8">
-                                            rainer.com.tr <a href="https://rainer.com.tr" target="_blank"><i
-                                                    class="ri-links-line"></i> Link</a>
-                                        </label>
-                                    </div>
-                                    <div class="form-check mt-1">
-                                        <input type="checkbox" name="websites[]" class="form-check-input"
-                                               id="checklist9" value="guest24.services"
-                                            {{in_array('guest24.services',$checkData['websites'] ?? []) ? 'checked':''}}
-                                        />
-                                        <label class="form-check-label strikethrough" for="checklist9">
-                                            guest24.services <a href="https://guest24.services" target="_blank"><i
-                                                    class="ri-links-line"></i> Link</a>
-                                        </label>
-                                    </div>
-                                    <div class="form-check mt-1">
-                                        <input type="checkbox" name="websites[]" class="form-check-input"
-                                               id="checklist10" value="reloxx.co.uk"
-                                            {{in_array('reloxx.co.uk',$checkData['websites'] ?? []) ? 'checked':''}}
-                                        />
-                                        <label class="form-check-label strikethrough" for="checklist10">
-                                            reloxx.co.uk <a href="https://reloxx.co.uk" target="_blank"><i
-                                                    class="ri-links-line"></i> Link</a>
-                                        </label>
-                                    </div>
-                                    <div class="form-check mt-1">
-                                        <input type="checkbox" name="websites[]" class="form-check-input"
-                                               id="checklist11" value="motokitchen.com.tr"
+                                               id="checklist23" value="motokitchen.com.tr"
                                             {{in_array('motokitchen.com.tr',$checkData['websites'] ?? []) ? 'checked':''}}
                                         />
-                                        <label class="form-check-label strikethrough" for="checklist11">
+                                        <label class="form-check-label strikethrough" for="checklist23">
                                             motokitchen.com.tr <a href="https://motokitchen.com.tr" target="_blank"><i
                                                     class="ri-links-line"></i> Link</a>
                                         </label>
                                     </div>
                                     <div class="form-check mt-1">
                                         <input type="checkbox" name="websites[]" class="form-check-input"
-                                               id="checklist12" value="quandbusiness.com"
-                                            {{in_array('quandbusiness.com',$checkData['websites'] ?? []) ? 'checked':''}}
+                                               id="checklist12" value="rainer.com.tr"
+                                            {{in_array('rainer.com.tr',$checkData['websites'] ?? []) ? 'checked':''}}
                                         />
                                         <label class="form-check-label strikethrough" for="checklist12">
-                                            quandbusiness.com <a href="https://quandbusiness.com" target="_blank"><i
+                                            rainer.com.tr <a href="https://rainer.com.tr" target="_blank"><i
+                                                    class="ri-links-line"></i> Link</a>
+                                        </label>
+                                    </div>
+                                    <div class="form-check mt-1">
+                                        <input type="checkbox" name="websites[]" class="form-check-input"
+                                               id="checklist13" value="guest24.services"
+                                            {{in_array('guest24.services',$checkData['websites'] ?? []) ? 'checked':''}}
+                                        />
+                                        <label class="form-check-label strikethrough" for="checklist13">
+                                            guest24.services <a href="https://guest24.services" target="_blank"><i
+                                                    class="ri-links-line"></i> Link</a>
+                                        </label>
+                                    </div>
+                                    <div class="form-check mt-1">
+                                        <input type="checkbox" name="websites[]" class="form-check-input"
+                                               id="checklist14" value="tectamundi.at"
+                                            {{in_array('tectamundi.at',$checkData['websites'] ?? []) ? 'checked':''}}
+                                        />
+                                        <label class="form-check-label strikethrough" for="checklist14">
+                                            tectamundi.at <a href="https://tectamundi.at" target="_blank"><i
+                                                    class="ri-links-line"></i> Link</a>
+                                        </label>
+                                    </div>
+                                    <div class="form-check mt-1">
+                                        <input type="checkbox" name="websites[]" class="form-check-input"
+                                               id="checklist15" value="tectamundiasset.com"
+                                            {{in_array('tectamundiasset.com',$checkData['websites'] ?? []) ? 'checked':''}}
+                                        />
+                                        <label class="form-check-label strikethrough" for="checklist15">
+                                            tectamundiasset.com <a href="https://tectamundiasset.com" target="_blank"><i
+                                                    class="ri-links-line"></i> Link</a>
+                                        </label>
+                                    </div>
+                                    <div class="form-check mt-1">
+                                        <input type="checkbox" name="websites[]" class="form-check-input"
+                                               id="checklist16" value="cwgrup.com"
+                                            {{in_array('cwgrup.com',$checkData['websites'] ?? []) ? 'checked':''}}
+                                        />
+                                        <label class="form-check-label strikethrough" for="checklist16">
+                                            cwgrup.com <a href="https://cwgrup.com" target="_blank"><i
+                                                    class="ri-links-line"></i> Link</a>
+                                        </label>
+                                    </div>
+                                    <div class="form-check mt-1">
+                                        <input type="checkbox" name="websites[]" class="form-check-input"
+                                               id="checklist17" value="amazonriverfund.com"
+                                            {{in_array('amazonriverfund.com',$checkData['websites'] ?? []) ? 'checked':''}}
+                                        />
+                                        <label class="form-check-label strikethrough" for="checklist17">
+                                            amazonriverfund.com <a href="https://amazonriverfund.com" target="_blank"><i
+                                                    class="ri-links-line"></i> Link</a>
+                                        </label>
+                                    </div>
+                                    <div class="form-check mt-1">
+                                        <input type="checkbox" name="websites[]" class="form-check-input"
+                                               id="checklist18" value="rerent.biz"
+                                            {{in_array('rerent.biz',$checkData['websites'] ?? []) ? 'checked':''}}
+                                        />
+                                        <label class="form-check-label strikethrough" for="checklist18">
+                                            rerent.biz <a href="https://rerent.biz" target="_blank"><i
+                                                    class="ri-links-line"></i> Link</a>
+                                        </label>
+                                    </div>
+                                    <div class="form-check mt-1">
+                                        <input type="checkbox" name="websites[]" class="form-check-input"
+                                               id="checklist19" value="salesexperts.info"
+                                            {{in_array('salesexperts.info',$checkData['websites'] ?? []) ? 'checked':''}}
+                                        />
+                                        <label class="form-check-label strikethrough" for="checklist19">
+                                            salesexperts.info <a href="https://salesexperts.info" target="_blank"><i
+                                                    class="ri-links-line"></i> Link</a>
+                                        </label>
+                                    </div>
+                                    <div class="form-check mt-1">
+                                        <input type="checkbox" name="websites[]" class="form-check-input"
+                                               id="checklist20" value="sabturizm.com.tr"
+                                            {{in_array('sabturizm.com.tr',$checkData['websites'] ?? []) ? 'checked':''}}
+                                        />
+                                        <label class="form-check-label strikethrough" for="checklist20">
+                                            sabturizm.com.tr <a href="https://sabturizm.com.tr" target="_blank"><i
+                                                    class="ri-links-line"></i> Link</a>
+                                        </label>
+                                    </div>
+                                    <div class="form-check mt-1">
+                                        <input type="checkbox" name="websites[]" class="form-check-input"
+                                               id="checklist21" value="dynamicworks.group"
+                                            {{in_array('dynamicworks.group',$checkData['websites'] ?? []) ? 'checked':''}}
+                                        />
+                                        <label class="form-check-label strikethrough" for="checklist21">
+                                            dynamicworks.group <a href="https://dynamicworks.group" target="_blank"><i
+                                                    class="ri-links-line"></i> Link</a>
+                                        </label>
+                                    </div>
+                                    <div class="form-check mt-1">
+                                        <input type="checkbox" name="websites[]" class="form-check-input"
+                                               id="checklist22" value="reloxx.co.uk"
+                                            {{in_array('reloxx.co.uk',$checkData['websites'] ?? []) ? 'checked':''}}
+                                        />
+                                        <label class="form-check-label strikethrough" for="checklist22">
+                                            reloxx.co.uk <a href="https://reloxx.co.uk" target="_blank"><i
                                                     class="ri-links-line"></i> Link</a>
                                         </label>
                                     </div>
